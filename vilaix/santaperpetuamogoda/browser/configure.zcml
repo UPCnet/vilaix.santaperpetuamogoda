@@ -11,11 +11,4 @@
         />
 
 
-<!-- RESOURCES -->
-    <browser:resource
-        name="logoVILAIX.png"
-        file="logoVILAIX.png"
-        />
-  
-
 </configure>

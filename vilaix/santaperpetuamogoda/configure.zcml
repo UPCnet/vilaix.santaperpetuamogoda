@@ -11,8 +11,8 @@
   <five:registerPackage package="." initialize=".initialize" />
 
   <includeDependencies package="." />
-
-  <grok:grok package="." />
+  <include package="grokcore.component" file="meta.zcml" />
+  <grok:grok package=".browser" />
 
   <include package=".browser" />
 
@@ -33,6 +33,12 @@
       directory="stylesheets"
       type="santaperpetua"
       name="stylesheets"
+      />
+  
+  <plone:static
+      directory="static"
+      type="santaperpetua"
+      name="static"
       />
 
   <genericsetup:registerProfile

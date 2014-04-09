@@ -6,8 +6,8 @@ add_import_path "../../../genweb.theme/genweb/theme/bootstrap/scss"
 http_path = "/"
 css_dir = "./stylesheets"
 sass_dir = "./scss"
-#http_images_path = "/++vilaix++static/images"
-#images_dir = "../../../vilaix.theme/vilaix/theme/static/images"
+http_images_path = "/++santaperpetua++static/images"
+images_dir = "../../../vilaix.santaperpetuamogoda/vilaix/santaperpetuamogoda/static/images"
 #javascripts_dir = "../../../genweb.theme/genweb/theme/bootstrap/js"
 
 # You can select your preferred output style here (can be overridden via the command line):
