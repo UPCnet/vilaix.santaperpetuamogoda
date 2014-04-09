@@ -69,6 +69,7 @@
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/++vilaix++stylesheets/VilaixTheme.css">
         <!-- <link rel="stylesheet" tal:attributes="href string:${portal_url}/dynamic.css"> -->
         <!-- <script tal:attributes="src string:${portal_url}/++bootstrap++js/modernizr-2.6.1.min.js"></script> -->
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++santaperpetua++stylesheets/SantaPerpetuaTheme.css">
 
     </tal:notajax>
 </head>

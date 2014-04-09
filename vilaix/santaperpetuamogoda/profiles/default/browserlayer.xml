@@ -1,6 +1,6 @@
 <layers>
   <layer
-      name="ISantaPerpetuaLayer"
+      name="SantaPerpetuaTheme"
       interface="vilaix.santaperpetuamogoda.interfaces.ISantaPerpetuaLayer"
   />
 </layers>

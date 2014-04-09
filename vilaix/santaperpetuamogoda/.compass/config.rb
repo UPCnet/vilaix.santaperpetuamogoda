@@ -1,13 +1,14 @@
 # Require any additional compass plugins here.
-additional_import_paths = ["../../../vilaix.theme/vilaix/theme/scss", "../../../genweb.theme/genweb/theme/scss", "../../../genweb.theme/genweb/theme/bootstrap/scss"]
+#additional_import_paths = ["../../../vilaix.theme/vilaix/theme/scss", "../../../genweb.theme/genweb/theme/scss", "../../../genweb.theme/genweb/theme/bootstrap/scss"]
+add_import_path "../../../genweb.theme/genweb/theme/bootstrap/scss"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "./stylesheets"
 sass_dir = "./scss"
-http_images_path = "/++vilaix++static/images"
-images_dir = "../../../vilaix.theme/vilaix/theme/static/images"
-javascripts_dir = "../../../genweb.theme/genweb/theme/bootstrap/js"
+#http_images_path = "/++vilaix++static/images"
+#images_dir = "../../../vilaix.theme/vilaix/theme/static/images"
+#javascripts_dir = "../../../genweb.theme/genweb/theme/bootstrap/js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

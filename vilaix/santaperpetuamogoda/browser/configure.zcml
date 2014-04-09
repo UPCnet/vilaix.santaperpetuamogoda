@@ -4,6 +4,13 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="vilaix.santaperpetuamogoda">
 
+    <interface
+        interface=".interfaces.ISantaPerpetuaTheme"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="SantaPerpetuaTheme"
+        />
+
+
 <!-- RESOURCES -->
     <browser:resource
         name="logoVILAIX.png"
