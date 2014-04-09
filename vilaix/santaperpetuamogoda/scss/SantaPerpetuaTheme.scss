@@ -1,7 +1,4 @@
 // Aqui posar el SCSS addicional per a suport del tema.
-$fontAwesomePath: "/++genweb++static/fonts";
-@import "compass_twitter_bootstrap/font-awesome";
-@import "overrides";
 
 // Vilaix CSS
 
@@ -892,6 +889,7 @@ h1, h2, h3 {
     margin-left: 0!important;
 }
 .liniaBaix, .documentFirstHeading {
+    color: #000000;
     border-bottom: 1px solid #BEBEBE;
     box-shadow: none;
     margin: 0 10px 5px 0;
@@ -1234,3 +1232,7 @@ color: #ccc;
     background: none;
 }
 
+.subnavbar .nav-list .active a, .subnavbar .nav-list .selected a {
+    background: #d4d4d4;
+    color: #222222;
+}

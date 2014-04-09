@@ -1,2174 +1,10 @@
-/*
- *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("/++genweb++static/fonts/fontawesome-webfont.eot?v=4.0.3");
-  src: url("/++genweb++static/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("/++genweb++static/fonts/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("/++genweb++static/fonts/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("/++genweb++static/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* line 15, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* makes the font 33% larger relative to the icon container */
-/* line 25, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-lg {
-  font-size: 1.3333333333333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-
-/* line 30, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-2x {
-  font-size: 2em;
-}
-
-/* line 33, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-3x {
-  font-size: 3em;
-}
-
-/* line 36, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-4x {
-  font-size: 4em;
-}
-
-/* line 39, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-5x {
-  font-size: 5em;
-}
-
-/* line 42, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fw {
-  width: 1.2857142857142858em;
-  text-align: center;
-}
-
-/* line 46, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ul {
-  padding-left: 0;
-  margin-left: 2.142857142857143em;
-  list-style-type: none;
-}
-
-/* line 51, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ul > li {
-  position: relative;
-}
-
-/* line 54, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-li {
-  position: absolute;
-  left: -2.143em;
-  width: 2.142857142857143em;
-  top: 0.14285714285714285em;
-  text-align: center;
-}
-
-/* line 61, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-li.fa-lg {
-  left: -1.857em;
-}
-
-/* line 64, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
-  border-radius: .1em;
-}
-
-/* line 69, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.pull-right {
-  float: right;
-}
-
-/* line 72, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.pull-left {
-  float: left;
-}
-
-/* line 75, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa.pull-left {
-  margin-right: .3em;
-}
-
-/* line 78, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa.pull-right {
-  margin-left: .3em;
-}
-
-/* line 81, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-spin {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-
-@-moz-keyframes spin {
-  /* line 88, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-
-  /* line 91, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-
-@-webkit-keyframes spin {
-  /* line 96, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  /* line 99, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-
-@-o-keyframes spin {
-  /* line 104, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  0% {
-    -o-transform: rotate(0deg);
-  }
-
-  /* line 107, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-
-@-ms-keyframes spin {
-  /* line 112, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-
-  /* line 115, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
-
-@keyframes spin {
-  /* line 120, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  0% {
-    transform: rotate(0deg);
-  }
-
-  /* line 123, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-  100% {
-    transform: rotate(359deg);
-  }
-}
-
-/* line 127, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-/* line 135, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-/* line 143, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-/* line 151, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
-  -moz-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  -o-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-/* line 159, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-  -webkit-transform: scale(1, -1);
-  -moz-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
-  -o-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
-
-/* line 167, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle;
-}
-
-/* line 176, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack-1x,
-.fa-stack-2x {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-/* line 182, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack-1x {
-  line-height: inherit;
-}
-
-/* line 185, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack-2x {
-  font-size: 2em;
-}
-
-/* line 188, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-inverse {
-  color: #ffffff;
-}
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
-/* line 193, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-glass:before {
-  content: "\f000";
-}
-
-/* line 196, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-music:before {
-  content: "\f001";
-}
-
-/* line 199, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-search:before {
-  content: "\f002";
-}
-
-/* line 202, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-envelope-o:before {
-  content: "\f003";
-}
-
-/* line 205, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-heart:before {
-  content: "\f004";
-}
-
-/* line 208, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-star:before {
-  content: "\f005";
-}
-
-/* line 211, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-star-o:before {
-  content: "\f006";
-}
-
-/* line 214, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-user:before {
-  content: "\f007";
-}
-
-/* line 217, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-film:before {
-  content: "\f008";
-}
-
-/* line 220, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-th-large:before {
-  content: "\f009";
-}
-
-/* line 223, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-th:before {
-  content: "\f00a";
-}
-
-/* line 226, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-th-list:before {
-  content: "\f00b";
-}
-
-/* line 229, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-check:before {
-  content: "\f00c";
-}
-
-/* line 232, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-times:before {
-  content: "\f00d";
-}
-
-/* line 235, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-search-plus:before {
-  content: "\f00e";
-}
-
-/* line 238, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-search-minus:before {
-  content: "\f010";
-}
-
-/* line 241, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-power-off:before {
-  content: "\f011";
-}
-
-/* line 244, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-signal:before {
-  content: "\f012";
-}
-
-/* line 248, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gear:before,
-.fa-cog:before {
-  content: "\f013";
-}
-
-/* line 251, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-trash-o:before {
-  content: "\f014";
-}
-
-/* line 254, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-home:before {
-  content: "\f015";
-}
-
-/* line 257, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-file-o:before {
-  content: "\f016";
-}
-
-/* line 260, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-clock-o:before {
-  content: "\f017";
-}
-
-/* line 263, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-road:before {
-  content: "\f018";
-}
-
-/* line 266, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-download:before {
-  content: "\f019";
-}
-
-/* line 269, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-o-down:before {
-  content: "\f01a";
-}
-
-/* line 272, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-o-up:before {
-  content: "\f01b";
-}
-
-/* line 275, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-inbox:before {
-  content: "\f01c";
-}
-
-/* line 278, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-play-circle-o:before {
-  content: "\f01d";
-}
-
-/* line 282, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rotate-right:before,
-.fa-repeat:before {
-  content: "\f01e";
-}
-
-/* line 285, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-refresh:before {
-  content: "\f021";
-}
-
-/* line 288, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-list-alt:before {
-  content: "\f022";
-}
-
-/* line 291, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-lock:before {
-  content: "\f023";
-}
-
-/* line 294, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flag:before {
-  content: "\f024";
-}
-
-/* line 297, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-headphones:before {
-  content: "\f025";
-}
-
-/* line 300, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-volume-off:before {
-  content: "\f026";
-}
-
-/* line 303, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-volume-down:before {
-  content: "\f027";
-}
-
-/* line 306, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-volume-up:before {
-  content: "\f028";
-}
-
-/* line 309, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-qrcode:before {
-  content: "\f029";
-}
-
-/* line 312, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-barcode:before {
-  content: "\f02a";
-}
-
-/* line 315, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tag:before {
-  content: "\f02b";
-}
-
-/* line 318, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tags:before {
-  content: "\f02c";
-}
-
-/* line 321, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-book:before {
-  content: "\f02d";
-}
-
-/* line 324, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bookmark:before {
-  content: "\f02e";
-}
-
-/* line 327, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-print:before {
-  content: "\f02f";
-}
-
-/* line 330, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-camera:before {
-  content: "\f030";
-}
-
-/* line 333, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-font:before {
-  content: "\f031";
-}
-
-/* line 336, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bold:before {
-  content: "\f032";
-}
-
-/* line 339, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-italic:before {
-  content: "\f033";
-}
-
-/* line 342, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-text-height:before {
-  content: "\f034";
-}
-
-/* line 345, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-text-width:before {
-  content: "\f035";
-}
-
-/* line 348, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-align-left:before {
-  content: "\f036";
-}
-
-/* line 351, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-align-center:before {
-  content: "\f037";
-}
-
-/* line 354, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-align-right:before {
-  content: "\f038";
-}
-
-/* line 357, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-align-justify:before {
-  content: "\f039";
-}
-
-/* line 360, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-list:before {
-  content: "\f03a";
-}
-
-/* line 364, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dedent:before,
-.fa-outdent:before {
-  content: "\f03b";
-}
-
-/* line 367, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-indent:before {
-  content: "\f03c";
-}
-
-/* line 370, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-video-camera:before {
-  content: "\f03d";
-}
-
-/* line 373, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-picture-o:before {
-  content: "\f03e";
-}
-
-/* line 376, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pencil:before {
-  content: "\f040";
-}
-
-/* line 379, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-map-marker:before {
-  content: "\f041";
-}
-
-/* line 382, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-adjust:before {
-  content: "\f042";
-}
-
-/* line 385, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tint:before {
-  content: "\f043";
-}
-
-/* line 389, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-edit:before,
-.fa-pencil-square-o:before {
-  content: "\f044";
-}
-
-/* line 392, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-share-square-o:before {
-  content: "\f045";
-}
-
-/* line 395, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-check-square-o:before {
-  content: "\f046";
-}
-
-/* line 398, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrows:before {
-  content: "\f047";
-}
-
-/* line 401, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-step-backward:before {
-  content: "\f048";
-}
-
-/* line 404, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fast-backward:before {
-  content: "\f049";
-}
-
-/* line 407, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-backward:before {
-  content: "\f04a";
-}
-
-/* line 410, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-play:before {
-  content: "\f04b";
-}
-
-/* line 413, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pause:before {
-  content: "\f04c";
-}
-
-/* line 416, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stop:before {
-  content: "\f04d";
-}
-
-/* line 419, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-forward:before {
-  content: "\f04e";
-}
-
-/* line 422, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fast-forward:before {
-  content: "\f050";
-}
-
-/* line 425, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-step-forward:before {
-  content: "\f051";
-}
-
-/* line 428, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-eject:before {
-  content: "\f052";
-}
-
-/* line 431, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-left:before {
-  content: "\f053";
-}
-
-/* line 434, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-right:before {
-  content: "\f054";
-}
-
-/* line 437, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-plus-circle:before {
-  content: "\f055";
-}
-
-/* line 440, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-minus-circle:before {
-  content: "\f056";
-}
-
-/* line 443, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-times-circle:before {
-  content: "\f057";
-}
-
-/* line 446, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-check-circle:before {
-  content: "\f058";
-}
-
-/* line 449, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-question-circle:before {
-  content: "\f059";
-}
-
-/* line 452, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-info-circle:before {
-  content: "\f05a";
-}
-
-/* line 455, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-crosshairs:before {
-  content: "\f05b";
-}
-
-/* line 458, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-times-circle-o:before {
-  content: "\f05c";
-}
-
-/* line 461, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-check-circle-o:before {
-  content: "\f05d";
-}
-
-/* line 464, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ban:before {
-  content: "\f05e";
-}
-
-/* line 467, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-left:before {
-  content: "\f060";
-}
-
-/* line 470, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-right:before {
-  content: "\f061";
-}
-
-/* line 473, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-up:before {
-  content: "\f062";
-}
-
-/* line 476, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-down:before {
-  content: "\f063";
-}
-
-/* line 480, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-mail-forward:before,
-.fa-share:before {
-  content: "\f064";
-}
-
-/* line 483, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-expand:before {
-  content: "\f065";
-}
-
-/* line 486, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-compress:before {
-  content: "\f066";
-}
-
-/* line 489, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-plus:before {
-  content: "\f067";
-}
-
-/* line 492, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-minus:before {
-  content: "\f068";
-}
-
-/* line 495, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-asterisk:before {
-  content: "\f069";
-}
-
-/* line 498, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-exclamation-circle:before {
-  content: "\f06a";
-}
-
-/* line 501, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gift:before {
-  content: "\f06b";
-}
-
-/* line 504, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-leaf:before {
-  content: "\f06c";
-}
-
-/* line 507, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fire:before {
-  content: "\f06d";
-}
-
-/* line 510, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-eye:before {
-  content: "\f06e";
-}
-
-/* line 513, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-eye-slash:before {
-  content: "\f070";
-}
-
-/* line 517, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-warning:before,
-.fa-exclamation-triangle:before {
-  content: "\f071";
-}
-
-/* line 520, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-plane:before {
-  content: "\f072";
-}
-
-/* line 523, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-calendar:before {
-  content: "\f073";
-}
-
-/* line 526, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-random:before {
-  content: "\f074";
-}
-
-/* line 529, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-comment:before {
-  content: "\f075";
-}
-
-/* line 532, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-magnet:before {
-  content: "\f076";
-}
-
-/* line 535, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-up:before {
-  content: "\f077";
-}
-
-/* line 538, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-down:before {
-  content: "\f078";
-}
-
-/* line 541, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-retweet:before {
-  content: "\f079";
-}
-
-/* line 544, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-shopping-cart:before {
-  content: "\f07a";
-}
-
-/* line 547, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-folder:before {
-  content: "\f07b";
-}
-
-/* line 550, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-folder-open:before {
-  content: "\f07c";
-}
-
-/* line 553, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrows-v:before {
-  content: "\f07d";
-}
-
-/* line 556, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrows-h:before {
-  content: "\f07e";
-}
-
-/* line 559, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bar-chart-o:before {
-  content: "\f080";
-}
-
-/* line 562, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-twitter-square:before {
-  content: "\f081";
-}
-
-/* line 565, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-facebook-square:before {
-  content: "\f082";
-}
-
-/* line 568, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-camera-retro:before {
-  content: "\f083";
-}
-
-/* line 571, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-key:before {
-  content: "\f084";
-}
-
-/* line 575, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gears:before,
-.fa-cogs:before {
-  content: "\f085";
-}
-
-/* line 578, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-comments:before {
-  content: "\f086";
-}
-
-/* line 581, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-thumbs-o-up:before {
-  content: "\f087";
-}
-
-/* line 584, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-thumbs-o-down:before {
-  content: "\f088";
-}
-
-/* line 587, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-star-half:before {
-  content: "\f089";
-}
-
-/* line 590, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-heart-o:before {
-  content: "\f08a";
-}
-
-/* line 593, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sign-out:before {
-  content: "\f08b";
-}
-
-/* line 596, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-linkedin-square:before {
-  content: "\f08c";
-}
-
-/* line 599, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-thumb-tack:before {
-  content: "\f08d";
-}
-
-/* line 602, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-external-link:before {
-  content: "\f08e";
-}
-
-/* line 605, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sign-in:before {
-  content: "\f090";
-}
-
-/* line 608, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-trophy:before {
-  content: "\f091";
-}
-
-/* line 611, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-github-square:before {
-  content: "\f092";
-}
-
-/* line 614, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-upload:before {
-  content: "\f093";
-}
-
-/* line 617, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-lemon-o:before {
-  content: "\f094";
-}
-
-/* line 620, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-phone:before {
-  content: "\f095";
-}
-
-/* line 623, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-square-o:before {
-  content: "\f096";
-}
-
-/* line 626, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bookmark-o:before {
-  content: "\f097";
-}
-
-/* line 629, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-phone-square:before {
-  content: "\f098";
-}
-
-/* line 632, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-twitter:before {
-  content: "\f099";
-}
-
-/* line 635, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-facebook:before {
-  content: "\f09a";
-}
-
-/* line 638, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-github:before {
-  content: "\f09b";
-}
-
-/* line 641, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-unlock:before {
-  content: "\f09c";
-}
-
-/* line 644, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-credit-card:before {
-  content: "\f09d";
-}
-
-/* line 647, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rss:before {
-  content: "\f09e";
-}
-
-/* line 650, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hdd-o:before {
-  content: "\f0a0";
-}
-
-/* line 653, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bullhorn:before {
-  content: "\f0a1";
-}
-
-/* line 656, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bell:before {
-  content: "\f0f3";
-}
-
-/* line 659, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-certificate:before {
-  content: "\f0a3";
-}
-
-/* line 662, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hand-o-right:before {
-  content: "\f0a4";
-}
-
-/* line 665, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hand-o-left:before {
-  content: "\f0a5";
-}
-
-/* line 668, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hand-o-up:before {
-  content: "\f0a6";
-}
-
-/* line 671, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hand-o-down:before {
-  content: "\f0a7";
-}
-
-/* line 674, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-left:before {
-  content: "\f0a8";
-}
-
-/* line 677, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-right:before {
-  content: "\f0a9";
-}
-
-/* line 680, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-up:before {
-  content: "\f0aa";
-}
-
-/* line 683, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-down:before {
-  content: "\f0ab";
-}
-
-/* line 686, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-globe:before {
-  content: "\f0ac";
-}
-
-/* line 689, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-wrench:before {
-  content: "\f0ad";
-}
-
-/* line 692, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tasks:before {
-  content: "\f0ae";
-}
-
-/* line 695, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-filter:before {
-  content: "\f0b0";
-}
-
-/* line 698, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-briefcase:before {
-  content: "\f0b1";
-}
-
-/* line 701, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrows-alt:before {
-  content: "\f0b2";
-}
-
-/* line 705, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-group:before,
-.fa-users:before {
-  content: "\f0c0";
-}
-
-/* line 709, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chain:before,
-.fa-link:before {
-  content: "\f0c1";
-}
-
-/* line 712, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cloud:before {
-  content: "\f0c2";
-}
-
-/* line 715, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flask:before {
-  content: "\f0c3";
-}
-
-/* line 719, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cut:before,
-.fa-scissors:before {
-  content: "\f0c4";
-}
-
-/* line 723, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-copy:before,
-.fa-files-o:before {
-  content: "\f0c5";
-}
-
-/* line 726, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-paperclip:before {
-  content: "\f0c6";
-}
-
-/* line 730, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-save:before,
-.fa-floppy-o:before {
-  content: "\f0c7";
-}
-
-/* line 733, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-square:before {
-  content: "\f0c8";
-}
-
-/* line 736, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bars:before {
-  content: "\f0c9";
-}
-
-/* line 739, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-list-ul:before {
-  content: "\f0ca";
-}
-
-/* line 742, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-list-ol:before {
-  content: "\f0cb";
-}
-
-/* line 745, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-strikethrough:before {
-  content: "\f0cc";
-}
-
-/* line 748, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-underline:before {
-  content: "\f0cd";
-}
-
-/* line 751, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-table:before {
-  content: "\f0ce";
-}
-
-/* line 754, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-magic:before {
-  content: "\f0d0";
-}
-
-/* line 757, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-truck:before {
-  content: "\f0d1";
-}
-
-/* line 760, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pinterest:before {
-  content: "\f0d2";
-}
-
-/* line 763, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pinterest-square:before {
-  content: "\f0d3";
-}
-
-/* line 766, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-google-plus-square:before {
-  content: "\f0d4";
-}
-
-/* line 769, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-google-plus:before {
-  content: "\f0d5";
-}
-
-/* line 772, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-money:before {
-  content: "\f0d6";
-}
-
-/* line 775, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-caret-down:before {
-  content: "\f0d7";
-}
-
-/* line 778, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-caret-up:before {
-  content: "\f0d8";
-}
-
-/* line 781, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-caret-left:before {
-  content: "\f0d9";
-}
-
-/* line 784, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-caret-right:before {
-  content: "\f0da";
-}
-
-/* line 787, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-columns:before {
-  content: "\f0db";
-}
-
-/* line 791, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-unsorted:before,
-.fa-sort:before {
-  content: "\f0dc";
-}
-
-/* line 795, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-down:before,
-.fa-sort-asc:before {
-  content: "\f0dd";
-}
-
-/* line 799, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-up:before,
-.fa-sort-desc:before {
-  content: "\f0de";
-}
-
-/* line 802, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-envelope:before {
-  content: "\f0e0";
-}
-
-/* line 805, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-linkedin:before {
-  content: "\f0e1";
-}
-
-/* line 809, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rotate-left:before,
-.fa-undo:before {
-  content: "\f0e2";
-}
-
-/* line 813, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-legal:before,
-.fa-gavel:before {
-  content: "\f0e3";
-}
-
-/* line 817, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dashboard:before,
-.fa-tachometer:before {
-  content: "\f0e4";
-}
-
-/* line 820, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-comment-o:before {
-  content: "\f0e5";
-}
-
-/* line 823, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-comments-o:before {
-  content: "\f0e6";
-}
-
-/* line 827, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flash:before,
-.fa-bolt:before {
-  content: "\f0e7";
-}
-
-/* line 830, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sitemap:before {
-  content: "\f0e8";
-}
-
-/* line 833, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-umbrella:before {
-  content: "\f0e9";
-}
-
-/* line 837, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-paste:before,
-.fa-clipboard:before {
-  content: "\f0ea";
-}
-
-/* line 840, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-lightbulb-o:before {
-  content: "\f0eb";
-}
-
-/* line 843, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-exchange:before {
-  content: "\f0ec";
-}
-
-/* line 846, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cloud-download:before {
-  content: "\f0ed";
-}
-
-/* line 849, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cloud-upload:before {
-  content: "\f0ee";
-}
-
-/* line 852, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-user-md:before {
-  content: "\f0f0";
-}
-
-/* line 855, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stethoscope:before {
-  content: "\f0f1";
-}
-
-/* line 858, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-suitcase:before {
-  content: "\f0f2";
-}
-
-/* line 861, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bell-o:before {
-  content: "\f0a2";
-}
-
-/* line 864, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-coffee:before {
-  content: "\f0f4";
-}
-
-/* line 867, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cutlery:before {
-  content: "\f0f5";
-}
-
-/* line 870, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-file-text-o:before {
-  content: "\f0f6";
-}
-
-/* line 873, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-building-o:before {
-  content: "\f0f7";
-}
-
-/* line 876, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-hospital-o:before {
-  content: "\f0f8";
-}
-
-/* line 879, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ambulance:before {
-  content: "\f0f9";
-}
-
-/* line 882, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-medkit:before {
-  content: "\f0fa";
-}
-
-/* line 885, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fighter-jet:before {
-  content: "\f0fb";
-}
-
-/* line 888, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-beer:before {
-  content: "\f0fc";
-}
-
-/* line 891, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-h-square:before {
-  content: "\f0fd";
-}
-
-/* line 894, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-plus-square:before {
-  content: "\f0fe";
-}
-
-/* line 897, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-double-left:before {
-  content: "\f100";
-}
-
-/* line 900, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-double-right:before {
-  content: "\f101";
-}
-
-/* line 903, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-double-up:before {
-  content: "\f102";
-}
-
-/* line 906, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-double-down:before {
-  content: "\f103";
-}
-
-/* line 909, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-left:before {
-  content: "\f104";
-}
-
-/* line 912, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-right:before {
-  content: "\f105";
-}
-
-/* line 915, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-up:before {
-  content: "\f106";
-}
-
-/* line 918, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-angle-down:before {
-  content: "\f107";
-}
-
-/* line 921, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-desktop:before {
-  content: "\f108";
-}
-
-/* line 924, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-laptop:before {
-  content: "\f109";
-}
-
-/* line 927, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tablet:before {
-  content: "\f10a";
-}
-
-/* line 931, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-mobile-phone:before,
-.fa-mobile:before {
-  content: "\f10b";
-}
-
-/* line 934, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-circle-o:before {
-  content: "\f10c";
-}
-
-/* line 937, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-quote-left:before {
-  content: "\f10d";
-}
-
-/* line 940, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-quote-right:before {
-  content: "\f10e";
-}
-
-/* line 943, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-spinner:before {
-  content: "\f110";
-}
-
-/* line 946, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-circle:before {
-  content: "\f111";
-}
-
-/* line 950, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-mail-reply:before,
-.fa-reply:before {
-  content: "\f112";
-}
-
-/* line 953, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-github-alt:before {
-  content: "\f113";
-}
-
-/* line 956, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-folder-o:before {
-  content: "\f114";
-}
-
-/* line 959, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-folder-open-o:before {
-  content: "\f115";
-}
-
-/* line 962, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-smile-o:before {
-  content: "\f118";
-}
-
-/* line 965, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-frown-o:before {
-  content: "\f119";
-}
-
-/* line 968, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-meh-o:before {
-  content: "\f11a";
-}
-
-/* line 971, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gamepad:before {
-  content: "\f11b";
-}
-
-/* line 974, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-keyboard-o:before {
-  content: "\f11c";
-}
-
-/* line 977, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flag-o:before {
-  content: "\f11d";
-}
-
-/* line 980, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flag-checkered:before {
-  content: "\f11e";
-}
-
-/* line 983, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-terminal:before {
-  content: "\f120";
-}
-
-/* line 986, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-code:before {
-  content: "\f121";
-}
-
-/* line 989, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-reply-all:before {
-  content: "\f122";
-}
-
-/* line 992, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-mail-reply-all:before {
-  content: "\f122";
-}
-
-/* line 997, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-star-half-empty:before,
-.fa-star-half-full:before,
-.fa-star-half-o:before {
-  content: "\f123";
-}
-
-/* line 1000, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-location-arrow:before {
-  content: "\f124";
-}
-
-/* line 1003, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-crop:before {
-  content: "\f125";
-}
-
-/* line 1006, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-code-fork:before {
-  content: "\f126";
-}
-
-/* line 1010, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-unlink:before,
-.fa-chain-broken:before {
-  content: "\f127";
-}
-
-/* line 1013, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-question:before {
-  content: "\f128";
-}
-
-/* line 1016, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-info:before {
-  content: "\f129";
-}
-
-/* line 1019, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-exclamation:before {
-  content: "\f12a";
-}
-
-/* line 1022, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-superscript:before {
-  content: "\f12b";
-}
-
-/* line 1025, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-subscript:before {
-  content: "\f12c";
-}
-
-/* line 1028, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-eraser:before {
-  content: "\f12d";
-}
-
-/* line 1031, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-puzzle-piece:before {
-  content: "\f12e";
-}
-
-/* line 1034, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-microphone:before {
-  content: "\f130";
-}
-
-/* line 1037, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-microphone-slash:before {
-  content: "\f131";
-}
-
-/* line 1040, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-shield:before {
-  content: "\f132";
-}
-
-/* line 1043, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-calendar-o:before {
-  content: "\f133";
-}
-
-/* line 1046, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-fire-extinguisher:before {
-  content: "\f134";
-}
-
-/* line 1049, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rocket:before {
-  content: "\f135";
-}
-
-/* line 1052, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-maxcdn:before {
-  content: "\f136";
-}
-
-/* line 1055, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-circle-left:before {
-  content: "\f137";
-}
-
-/* line 1058, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-circle-right:before {
-  content: "\f138";
-}
-
-/* line 1061, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-circle-up:before {
-  content: "\f139";
-}
-
-/* line 1064, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-chevron-circle-down:before {
-  content: "\f13a";
-}
-
-/* line 1067, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-html5:before {
-  content: "\f13b";
-}
-
-/* line 1070, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-css3:before {
-  content: "\f13c";
-}
-
-/* line 1073, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-anchor:before {
-  content: "\f13d";
-}
-
-/* line 1076, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-unlock-alt:before {
-  content: "\f13e";
-}
-
-/* line 1079, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bullseye:before {
-  content: "\f140";
-}
-
-/* line 1082, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ellipsis-h:before {
-  content: "\f141";
-}
-
-/* line 1085, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ellipsis-v:before {
-  content: "\f142";
-}
-
-/* line 1088, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rss-square:before {
-  content: "\f143";
-}
-
-/* line 1091, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-play-circle:before {
-  content: "\f144";
-}
-
-/* line 1094, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ticket:before {
-  content: "\f145";
-}
-
-/* line 1097, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-minus-square:before {
-  content: "\f146";
-}
-
-/* line 1100, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-minus-square-o:before {
-  content: "\f147";
-}
-
-/* line 1103, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-level-up:before {
-  content: "\f148";
-}
-
-/* line 1106, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-level-down:before {
-  content: "\f149";
-}
-
-/* line 1109, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-check-square:before {
-  content: "\f14a";
-}
-
-/* line 1112, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pencil-square:before {
-  content: "\f14b";
-}
-
-/* line 1115, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-external-link-square:before {
-  content: "\f14c";
-}
-
-/* line 1118, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-share-square:before {
-  content: "\f14d";
-}
-
-/* line 1121, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-compass:before {
-  content: "\f14e";
-}
-
-/* line 1125, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-toggle-down:before,
-.fa-caret-square-o-down:before {
-  content: "\f150";
-}
-
-/* line 1129, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-toggle-up:before,
-.fa-caret-square-o-up:before {
-  content: "\f151";
-}
-
-/* line 1133, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-toggle-right:before,
-.fa-caret-square-o-right:before {
-  content: "\f152";
-}
-
-/* line 1137, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-euro:before,
-.fa-eur:before {
-  content: "\f153";
-}
-
-/* line 1140, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gbp:before {
-  content: "\f154";
-}
-
-/* line 1144, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dollar:before,
-.fa-usd:before {
-  content: "\f155";
-}
-
-/* line 1148, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-rupee:before,
-.fa-inr:before {
-  content: "\f156";
-}
-
-/* line 1154, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-cny:before,
-.fa-rmb:before,
-.fa-yen:before,
-.fa-jpy:before {
-  content: "\f157";
-}
-
-/* line 1159, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-ruble:before,
-.fa-rouble:before,
-.fa-rub:before {
-  content: "\f158";
-}
-
-/* line 1163, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-won:before,
-.fa-krw:before {
-  content: "\f159";
-}
-
-/* line 1167, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bitcoin:before,
-.fa-btc:before {
-  content: "\f15a";
-}
-
-/* line 1170, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-file:before {
-  content: "\f15b";
-}
-
-/* line 1173, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-file-text:before {
-  content: "\f15c";
-}
-
-/* line 1176, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-alpha-asc:before {
-  content: "\f15d";
-}
-
-/* line 1179, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-alpha-desc:before {
-  content: "\f15e";
-}
-
-/* line 1182, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-amount-asc:before {
-  content: "\f160";
-}
-
-/* line 1185, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-amount-desc:before {
-  content: "\f161";
-}
-
-/* line 1188, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-numeric-asc:before {
-  content: "\f162";
-}
-
-/* line 1191, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sort-numeric-desc:before {
-  content: "\f163";
-}
-
-/* line 1194, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-thumbs-up:before {
-  content: "\f164";
-}
-
-/* line 1197, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-thumbs-down:before {
-  content: "\f165";
-}
-
-/* line 1200, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-youtube-square:before {
-  content: "\f166";
-}
-
-/* line 1203, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-youtube:before {
-  content: "\f167";
-}
-
-/* line 1206, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-xing:before {
-  content: "\f168";
-}
-
-/* line 1209, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-xing-square:before {
-  content: "\f169";
-}
-
-/* line 1212, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-youtube-play:before {
-  content: "\f16a";
-}
-
-/* line 1215, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dropbox:before {
-  content: "\f16b";
-}
-
-/* line 1218, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack-overflow:before {
-  content: "\f16c";
-}
-
-/* line 1221, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-instagram:before {
-  content: "\f16d";
-}
-
-/* line 1224, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-flickr:before {
-  content: "\f16e";
-}
-
-/* line 1227, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-adn:before {
-  content: "\f170";
-}
-
-/* line 1230, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bitbucket:before {
-  content: "\f171";
-}
-
-/* line 1233, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bitbucket-square:before {
-  content: "\f172";
-}
-
-/* line 1236, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tumblr:before {
-  content: "\f173";
-}
-
-/* line 1239, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-tumblr-square:before {
-  content: "\f174";
-}
-
-/* line 1242, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-long-arrow-down:before {
-  content: "\f175";
-}
-
-/* line 1245, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-long-arrow-up:before {
-  content: "\f176";
-}
-
-/* line 1248, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-long-arrow-left:before {
-  content: "\f177";
-}
-
-/* line 1251, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-long-arrow-right:before {
-  content: "\f178";
-}
-
-/* line 1254, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-apple:before {
-  content: "\f179";
-}
-
-/* line 1257, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-windows:before {
-  content: "\f17a";
-}
-
-/* line 1260, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-android:before {
-  content: "\f17b";
-}
-
-/* line 1263, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-linux:before {
-  content: "\f17c";
-}
-
-/* line 1266, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dribbble:before {
-  content: "\f17d";
-}
-
-/* line 1269, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-skype:before {
-  content: "\f17e";
-}
-
-/* line 1272, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-foursquare:before {
-  content: "\f180";
-}
-
-/* line 1275, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-trello:before {
-  content: "\f181";
-}
-
-/* line 1278, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-female:before {
-  content: "\f182";
-}
-
-/* line 1281, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-male:before {
-  content: "\f183";
-}
-
-/* line 1284, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-gittip:before {
-  content: "\f184";
-}
-
-/* line 1287, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-sun-o:before {
-  content: "\f185";
-}
-
-/* line 1290, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-moon-o:before {
-  content: "\f186";
-}
-
-/* line 1293, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-archive:before {
-  content: "\f187";
-}
-
-/* line 1296, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-bug:before {
-  content: "\f188";
-}
-
-/* line 1299, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-vk:before {
-  content: "\f189";
-}
-
-/* line 1302, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-weibo:before {
-  content: "\f18a";
-}
-
-/* line 1305, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-renren:before {
-  content: "\f18b";
-}
-
-/* line 1308, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-pagelines:before {
-  content: "\f18c";
-}
-
-/* line 1311, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-stack-exchange:before {
-  content: "\f18d";
-}
-
-/* line 1314, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-o-right:before {
-  content: "\f18e";
-}
-
-/* line 1317, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-arrow-circle-o-left:before {
-  content: "\f190";
-}
-
-/* line 1321, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-toggle-left:before,
-.fa-caret-square-o-left:before {
-  content: "\f191";
-}
-
-/* line 1324, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-dot-circle-o:before {
-  content: "\f192";
-}
-
-/* line 1327, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-wheelchair:before {
-  content: "\f193";
-}
-
-/* line 1330, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-vimeo-square:before {
-  content: "\f194";
-}
-
-/* line 1334, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-turkish-lira:before,
-.fa-try:before {
-  content: "\f195";
-}
-
-/* line 1337, ../../../../genweb.theme/genweb/theme/bootstrap/scss/compass_twitter_bootstrap/_font-awesome.scss */
-.fa-plus-square-o:before {
-  content: "\f196";
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1), only screen and (        min-device-pixel-ratio: 2), only screen and (                min-resolution: 192dpi), only screen and (                min-resolution: 2dppx) {
-  /* line 5, ../../../../vilaix.theme/vilaix/theme/scss/_overrides.scss */
-  #portal-header h1.pull-left {
-    height: 46px;
-    width: 207px;
-    background: url("/++ulearn++static/images/logo-upcnet-ulearn-ca.png") no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-  }
-}
-
-/* line 8, ../scss/SantaPerpetuaTheme.scss */
+/* line 5, ../scss/SantaPerpetuaTheme.scss */
 html {
   background: none repeat scroll 0 0 #fff;
   font-size: 100%;
 }
 
-/* line 12, ../scss/SantaPerpetuaTheme.scss */
+/* line 9, ../scss/SantaPerpetuaTheme.scss */
 body {
   background: #fff;
   font-family: 'Cabin', sans-serif;
@@ -2176,35 +12,35 @@ body {
   line-height: 20px;
 }
 
-/* line 18, ../scss/SantaPerpetuaTheme.scss */
+/* line 15, ../scss/SantaPerpetuaTheme.scss */
 a {
   text-decoration: none;
 }
 
-/* line 21, ../scss/SantaPerpetuaTheme.scss */
+/* line 18, ../scss/SantaPerpetuaTheme.scss */
 a:hover {
   color: black;
   text-decoration: underline;
 }
 
-/* line 25, ../scss/SantaPerpetuaTheme.scss */
+/* line 22, ../scss/SantaPerpetuaTheme.scss */
 .tileFooter > a, #peu a {
   color: #000000;
 }
 
-/* line 28, ../scss/SantaPerpetuaTheme.scss */
+/* line 25, ../scss/SantaPerpetuaTheme.scss */
 h2 a, h3 a {
   color: black;
 }
 
-/* line 34, ../scss/SantaPerpetuaTheme.scss */
+/* line 31, ../scss/SantaPerpetuaTheme.scss */
 #portal-header {
   border-top: none;
   border-bottom: none;
   background: #e7e4e3;
 }
 
-/* line 39, ../scss/SantaPerpetuaTheme.scss */
+/* line 36, ../scss/SantaPerpetuaTheme.scss */
 #portal-header .container {
   border-bottom: 0 none;
   border-top: 0 none;
@@ -2212,24 +48,24 @@ h2 a, h3 a {
   margin-top: 0;
 }
 
-/* line 46, ../scss/SantaPerpetuaTheme.scss */
+/* line 43, ../scss/SantaPerpetuaTheme.scss */
 .header-image {
   background-image: url("/++vilaix++static/images/capcalera.jpg");
   margin-top: 10px !important;
   background-repeat: no-repeat;
 }
 
-/* line 54, ../scss/SantaPerpetuaTheme.scss */
+/* line 51, ../scss/SantaPerpetuaTheme.scss */
 .navbar-inner {
   border: none;
 }
 
-/* line 58, ../scss/SantaPerpetuaTheme.scss */
+/* line 55, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav {
   margin-top: 10px;
 }
 
-/* line 62, ../scss/SantaPerpetuaTheme.scss */
+/* line 59, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .nav > li > a {
   color: white;
   background-color: #4B4B4D;
@@ -2238,13 +74,13 @@ h2 a, h3 a {
   margin-right: 5px;
 }
 
-/* line 70, ../scss/SantaPerpetuaTheme.scss */
+/* line 67, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar-inner {
   padding: 0;
   border-bottom: none;
 }
 
-/* line 75, ../scss/SantaPerpetuaTheme.scss */
+/* line 72, ../scss/SantaPerpetuaTheme.scss */
 .navbar-inner {
   min-height: 36px;
   background-color: #e7e4e3;
@@ -2253,41 +89,41 @@ h2 a, h3 a {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-/* line 83, ../scss/SantaPerpetuaTheme.scss */
+/* line 80, ../scss/SantaPerpetuaTheme.scss */
 .nav > li {
   padding-top: 3px;
 }
 
-/* line 87, ../scss/SantaPerpetuaTheme.scss */
+/* line 84, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .state-published, #portal-globalnav #workflow-transition-publish {
   border-bottom: none;
 }
 
-/* line 91, ../scss/SantaPerpetuaTheme.scss */
+/* line 88, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .state-draft, #portal-globalnav #workflow-transition-reject, #portal-globalnav #workflow-transition-retiraaesborrany, #portal-globalnav #workflow-transition-show, #portal-globalnav .state-visible {
   border-bottom: none;
 }
 
-/* line 95, ../scss/SantaPerpetuaTheme.scss */
+/* line 92, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .state-private, #portal-globalnav #workflow-transition-hide {
   border-bottom: none;
 }
 
-/* line 99, ../scss/SantaPerpetuaTheme.scss */
+/* line 96, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar .nav > li > a:focus, #portal-globalnav .navbar .contentViews > li > a:focus, #portal-globalnav .navbar .configlets > li > a:focus, #portal-globalnav .navbar .formTabs > li > a:focus, #portal-globalnav .navbar .nav > li > a:hover, #portal-globalnav .navbar .contentViews > li > a:hover, #portal-globalnav .navbar .configlets > li > a:hover, #portal-globalnav .navbar .formTabs > li > a:hover {
   -webkit-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
   -moz-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
   box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
 }
 
-/* line 105, ../scss/SantaPerpetuaTheme.scss */
+/* line 102, ../scss/SantaPerpetuaTheme.scss */
 .portlet {
   margin-bottom: 20px;
   border: 0;
   background: white;
 }
 
-/* line 111, ../scss/SantaPerpetuaTheme.scss */
+/* line 108, ../scss/SantaPerpetuaTheme.scss */
 .portlet h2 {
   margin: 0;
   font-size: 16px;
@@ -2299,17 +135,17 @@ h2 a, h3 a {
   text-transform: uppercase;
 }
 
-/* line 121, ../scss/SantaPerpetuaTheme.scss */
+/* line 118, ../scss/SantaPerpetuaTheme.scss */
 .portlet h2 a, .portlet a {
   color: black;
 }
 
-/* line 124, ../scss/SantaPerpetuaTheme.scss */
+/* line 121, ../scss/SantaPerpetuaTheme.scss */
 .portlet-noticia-destacada > h2 {
   margin-bottom: 15px;
 }
 
-/* line 127, ../scss/SantaPerpetuaTheme.scss */
+/* line 124, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet {
   background: white;
   margin: 0;
@@ -2318,7 +154,7 @@ h2 a, h3 a {
   border-bottom: none;
 }
 
-/* line 135, ../scss/SantaPerpetuaTheme.scss */
+/* line 132, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet .noticies {
   height: auto;
   padding: 8px 0 8px 0px !important;
@@ -2327,7 +163,7 @@ h2 a, h3 a {
   content: "" !important;
 }
 
-/* line 142, ../scss/SantaPerpetuaTheme.scss */
+/* line 139, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet .noticies .imatge {
   float: left;
   width: 132px;
@@ -2335,7 +171,7 @@ h2 a, h3 a {
   padding: 2px;
 }
 
-/* line 149, ../scss/SantaPerpetuaTheme.scss */
+/* line 146, ../scss/SantaPerpetuaTheme.scss */
 .noticies h2 {
   margin: 0;
   font-size: 16px;
@@ -2347,12 +183,12 @@ h2 a, h3 a {
   background: none;
 }
 
-/* line 160, ../scss/SantaPerpetuaTheme.scss */
+/* line 157, ../scss/SantaPerpetuaTheme.scss */
 .noticies p {
   margin: 0 0 0px;
 }
 
-/* line 164, ../scss/SantaPerpetuaTheme.scss */
+/* line 161, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet li::before {
   content: none;
   position: absolute;
@@ -2362,7 +198,7 @@ h2 a, h3 a {
   color: #0EA8FF;
 }
 
-/* line 173, ../scss/SantaPerpetuaTheme.scss */
+/* line 170, ../scss/SantaPerpetuaTheme.scss */
 .portlet .portlet-footer {
   text-align: right;
   padding: 0px 0px 0px;
@@ -2370,7 +206,7 @@ h2 a, h3 a {
   font-weight: bold;
 }
 
-/* line 180, ../scss/SantaPerpetuaTheme.scss */
+/* line 177, ../scss/SantaPerpetuaTheme.scss */
 .portlet-footer .icon-plus-sign {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.8;
@@ -2380,7 +216,7 @@ h2 a, h3 a {
   margin-right: 3px;
 }
 
-/* line 189, ../scss/SantaPerpetuaTheme.scss */
+/* line 186, ../scss/SantaPerpetuaTheme.scss */
 .button {
   background: black;
   padding: 0px;
@@ -2389,40 +225,40 @@ h2 a, h3 a {
   padding-left: 4px;
 }
 
-/* line 196, ../scss/SantaPerpetuaTheme.scss */
+/* line 193, ../scss/SantaPerpetuaTheme.scss */
 .portlet.portlet-noticia-destacada {
   padding: 0;
   min-height: 145px;
 }
 
-/* line 200, ../scss/SantaPerpetuaTheme.scss */
+/* line 197, ../scss/SantaPerpetuaTheme.scss */
 .portlet.portlet-noticia-destacada h2 {
   margin-bottom: 15px;
 }
 
-/* line 203, ../scss/SantaPerpetuaTheme.scss */
+/* line 200, ../scss/SantaPerpetuaTheme.scss */
 .imatge_Destacada, .text_Destacat {
   margin: 0!important;
 }
 
-/* line 206, ../scss/SantaPerpetuaTheme.scss */
+/* line 203, ../scss/SantaPerpetuaTheme.scss */
 .text_Destacat {
   margin-left: 10px!important;
 }
 
-/* line 209, ../scss/SantaPerpetuaTheme.scss */
+/* line 206, ../scss/SantaPerpetuaTheme.scss */
 .noticia_Destacada {
   background: none;
 }
 
-/* line 212, ../scss/SantaPerpetuaTheme.scss */
+/* line 209, ../scss/SantaPerpetuaTheme.scss */
 .link_footer_destacat {
   margin-left: 10px !important;
   margin-bottom: 0!important;
   margin-top: 10px;
 }
 
-/* line 217, ../scss/SantaPerpetuaTheme.scss */
+/* line 214, ../scss/SantaPerpetuaTheme.scss */
 .portlet_mes_consultat .list-portlet li {
   border-top: 1px solid #E5E5E5;
   margin-left: 0 !important;
@@ -2430,7 +266,7 @@ h2 a, h3 a {
   margin-right: 10px;
 }
 
-/* line 224, ../scss/SantaPerpetuaTheme.scss */
+/* line 221, ../scss/SantaPerpetuaTheme.scss */
 .mes_consultat {
   background: #F2F2F2;
   margin-right: 0px !important;
@@ -2438,17 +274,17 @@ h2 a, h3 a {
   border-top: 3px solid white !important;
 }
 
-/* line 231, ../scss/SantaPerpetuaTheme.scss */
+/* line 228, ../scss/SantaPerpetuaTheme.scss */
 .mes_consultat a {
   color: black !important;
 }
 
-/* line 235, ../scss/SantaPerpetuaTheme.scss */
+/* line 232, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments ul {
   border-bottom: none;
 }
 
-/* line 239, ../scss/SantaPerpetuaTheme.scss */
+/* line 236, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments ul a {
   color: black;
   display: block;
@@ -2458,71 +294,71 @@ h2 a, h3 a {
   min-height: 0 !important;
 }
 
-/* line 248, ../scss/SantaPerpetuaTheme.scss */
+/* line 245, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments .multidate-before {
   padding-left: 73px;
 }
 
-/* line 252, ../scss/SantaPerpetuaTheme.scss */
+/* line 249, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments .multidate {
   font-size: 107%;
 }
 
-/* line 256, ../scss/SantaPerpetuaTheme.scss */
+/* line 253, ../scss/SantaPerpetuaTheme.scss */
 .text_esdeveniment {
   padding-left: 75px;
   font-size: 90%;
 }
 
-/* line 261, ../scss/SantaPerpetuaTheme.scss */
+/* line 258, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu {
   border: 2px solid white;
   padding: 10px 10px;
 }
 
-/* line 266, ../scss/SantaPerpetuaTheme.scss */
+/* line 263, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu ul {
   list-style: none;
   margin-left: 0px;
 }
 
-/* line 272, ../scss/SantaPerpetuaTheme.scss */
+/* line 269, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu h4 {
   background: transparent;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 278, ../scss/SantaPerpetuaTheme.scss */
+/* line 275, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu li a {
   color: black;
   margin-left: 10px;
 }
 
-/* line 283, ../scss/SantaPerpetuaTheme.scss */
+/* line 280, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu_links ul li {
   border-bottom: 2px solid white;
   padding-bottom: 5px;
 }
 
-/* line 288, ../scss/SantaPerpetuaTheme.scss */
+/* line 285, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu h4 a {
   color: white;
   margin-left: 10px;
 }
 
-/* line 293, ../scss/SantaPerpetuaTheme.scss */
+/* line 290, ../scss/SantaPerpetuaTheme.scss */
 #baners ul {
   list-style: none;
   margin-left: 0px;
 }
 
-/* line 298, ../scss/SantaPerpetuaTheme.scss */
+/* line 295, ../scss/SantaPerpetuaTheme.scss */
 #baners ul li {
   margin-bottom: 8px;
 }
 
-/* line 304, ../scss/SantaPerpetuaTheme.scss */
+/* line 301, ../scss/SantaPerpetuaTheme.scss */
 #portal-header {
   background: none repeat scroll 0 0 white;
   border-bottom: medium none;
@@ -2530,12 +366,12 @@ h2 a, h3 a {
   margin: 0 auto;
 }
 
-/* line 310, ../scss/SantaPerpetuaTheme.scss */
+/* line 307, ../scss/SantaPerpetuaTheme.scss */
 .link_footer_destacat {
   margin-left: 0 !important;
 }
 
-/* line 311, ../scss/SantaPerpetuaTheme.scss */
+/* line 308, ../scss/SantaPerpetuaTheme.scss */
 .header-image {
   background-image: url("/++vilaix++static/images/capcalera.jpg");
   background-repeat: no-repeat;
@@ -2545,7 +381,7 @@ h2 a, h3 a {
   height: 185px;
 }
 
-/* line 319, ../scss/SantaPerpetuaTheme.scss */
+/* line 316, ../scss/SantaPerpetuaTheme.scss */
 .portlet {
   background: none repeat scroll 0 0 white;
   border: 0;
@@ -2554,7 +390,7 @@ h2 a, h3 a {
   margin-bottom: 15px;
 }
 
-/* line 326, ../scss/SantaPerpetuaTheme.scss */
+/* line 323, ../scss/SantaPerpetuaTheme.scss */
 .portlet h2 {
   background: none repeat scroll 0 0 #000000;
   border-bottom-width: 0;
@@ -2568,7 +404,7 @@ h2 a, h3 a {
   text-transform: uppercase;
 }
 
-/* line 338, ../scss/SantaPerpetuaTheme.scss */
+/* line 335, ../scss/SantaPerpetuaTheme.scss */
 .noticies h2 {
   background: none repeat scroll 0 0 transparent;
   border-bottom-width: 0;
@@ -2580,17 +416,17 @@ h2 a, h3 a {
   position: relative;
 }
 
-/* line 348, ../scss/SantaPerpetuaTheme.scss */
+/* line 345, ../scss/SantaPerpetuaTheme.scss */
 .portlet h3 a {
   color: black;
 }
 
-/* line 351, ../scss/SantaPerpetuaTheme.scss */
+/* line 348, ../scss/SantaPerpetuaTheme.scss */
 b, strong {
   font-weight: 600;
 }
 
-/* line 354, ../scss/SantaPerpetuaTheme.scss */
+/* line 351, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .nav > li > a {
   background-color: transparent;
   border-right: medium none;
@@ -2604,14 +440,14 @@ b, strong {
   text-transform: uppercase;
 }
 
-/* line 367, ../scss/SantaPerpetuaTheme.scss */
+/* line 364, ../scss/SantaPerpetuaTheme.scss */
 .button {
   background: none repeat scroll 0 0 black;
   font-size: 11px;
   padding: 1px 0 2px 8px;
 }
 
-/* line 372, ../scss/SantaPerpetuaTheme.scss */
+/* line 369, ../scss/SantaPerpetuaTheme.scss */
 .portlet-footer {
   background: none repeat scroll 0 0 #000000;
   border-radius: 0;
@@ -2623,29 +459,29 @@ b, strong {
   text-align: center;
 }
 
-/* line 382, ../scss/SantaPerpetuaTheme.scss */
+/* line 379, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar .nav > li > a:focus, #portal-globalnav .navbar .contentViews > li > a:focus, #portal-globalnav .navbar .configlets > li > a:focus, #portal-globalnav .navbar .formTabs > li > a:focus, #portal-globalnav .navbar .nav > li > a:hover, #portal-globalnav .navbar .contentViews > li > a:hover, #portal-globalnav .navbar .configlets > li > a:hover, #portal-globalnav .navbar .formTabs > li > a:hover {
   box-shadow: 0 20px 20px -20px rgba(255, 255, 255, 0.4) inset;
 }
 
-/* line 385, ../scss/SantaPerpetuaTheme.scss */
+/* line 382, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-content .span9 {
   margin-left: 1.6%;
 }
 
-/* line 388, ../scss/SantaPerpetuaTheme.scss */
+/* line 385, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-content .span4 {
   margin-left: 2.2%;
   width: 32.15%;
 }
 
-/* line 392, ../scss/SantaPerpetuaTheme.scss */
+/* line 389, ../scss/SantaPerpetuaTheme.scss */
 #content-area {
   margin-top: 0.8em;
   padding-bottom: 2em;
 }
 
-/* line 402, ../scss/SantaPerpetuaTheme.scss */
+/* line 399, ../scss/SantaPerpetuaTheme.scss */
 .text_Destacat h3 {
   font-size: 23px;
   font-weight: 600;
@@ -2653,13 +489,13 @@ b, strong {
   margin-top: 0;
 }
 
-/* line 411, ../scss/SantaPerpetuaTheme.scss */
+/* line 408, ../scss/SantaPerpetuaTheme.scss */
 .portletCalendar .ploneCalendar td.event, .portletCalendar .ploneCalendar td.todayevent {
   background: none repeat scroll 0 0 #F2F2F2;
   text-shadow: 0 -1px white;
 }
 
-/* line 415, ../scss/SantaPerpetuaTheme.scss */
+/* line 412, ../scss/SantaPerpetuaTheme.scss */
 .portletCalendar .ploneCalendar td.event a, .portletCalendar .ploneCalendar td.todayevent a {
   background: none repeat scroll 0 0 #DDDDDD;
   border-radius: 10px 10px 10px 10px;
@@ -2667,37 +503,37 @@ b, strong {
   padding: 1px 5px;
 }
 
-/* line 421, ../scss/SantaPerpetuaTheme.scss */
+/* line 418, ../scss/SantaPerpetuaTheme.scss */
 .portletCalendar .ploneCalendar td:not(:empty) {
   background: none repeat scroll 0 0 #FFFFFF;
   border-radius: 50px 50px 50px 50px;
   text-shadow: 0 1px #FFFFFF;
 }
 
-/* line 426, ../scss/SantaPerpetuaTheme.scss */
+/* line 423, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments ul a {
   font-size: 16px;
   font-weight: 600;
   line-height: 21px;
 }
 
-/* line 431, ../scss/SantaPerpetuaTheme.scss */
+/* line 428, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments li {
   margin-left: 0px!important;
 }
 
-/* line 435, ../scss/SantaPerpetuaTheme.scss */
+/* line 432, ../scss/SantaPerpetuaTheme.scss */
 #baners img:hover {
   opacity: 0.75;
   transition: 0.5s ease-out 0s;
 }
 
-/* line 436, ../scss/SantaPerpetuaTheme.scss */
+/* line 433, ../scss/SantaPerpetuaTheme.scss */
 #baners a:hover {
   text-decoration: none;
 }
 
-/* line 437, ../scss/SantaPerpetuaTheme.scss */
+/* line 434, ../scss/SantaPerpetuaTheme.scss */
 #content-area, #portal-column-content {
   margin-bottom: 0;
   margin-top: 10px;
@@ -2707,63 +543,63 @@ b, strong {
   transition: box-shadow 0.5s ease-out 0s;
 }
 
-/* line 448, ../scss/SantaPerpetuaTheme.scss */
+/* line 445, ../scss/SantaPerpetuaTheme.scss */
 .span12 #baners li {
   display: inline;
 }
 
-/* line 451, ../scss/SantaPerpetuaTheme.scss */
+/* line 448, ../scss/SantaPerpetuaTheme.scss */
 .span12 #baners li:hover {
   text-decoration: none;
 }
 
-/* line 454, ../scss/SantaPerpetuaTheme.scss */
+/* line 451, ../scss/SantaPerpetuaTheme.scss */
 .span12 #baners li img, .carousel img {
   box-shadow: 2px 2px 2px #777777;
   margin-right: 55px;
   margin-top: 10px;
 }
 
-/* line 459, ../scss/SantaPerpetuaTheme.scss */
+/* line 456, ../scss/SantaPerpetuaTheme.scss */
 .span12 #baners li:last-child img {
   margin-right: 0;
 }
 
-/* line 462, ../scss/SantaPerpetuaTheme.scss */
+/* line 459, ../scss/SantaPerpetuaTheme.scss */
 .navbar-inner {
   background-color: transparent;
 }
 
-/* line 465, ../scss/SantaPerpetuaTheme.scss */
+/* line 462, ../scss/SantaPerpetuaTheme.scss */
 #portal-header:not(.no-image) + #portal-globalnav .navbar-inner {
   border-radius: 0 0 0 0 !important;
   margin-top: 0;
 }
 
-/* line 469, ../scss/SantaPerpetuaTheme.scss */
+/* line 466, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar-inner {
   background: none repeat scroll 0 0 #000000;
   border-bottom: medium none;
   padding: 0 0 0 20px;
 }
 
-/* line 475, ../scss/SantaPerpetuaTheme.scss */
+/* line 472, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav {
   margin-top: 0;
 }
 
-/* line 478, ../scss/SantaPerpetuaTheme.scss */
+/* line 475, ../scss/SantaPerpetuaTheme.scss */
 #eines {
   font-size: 12px;
   margin-top: 10px;
 }
 
-/* line 483, ../scss/SantaPerpetuaTheme.scss */
+/* line 480, ../scss/SantaPerpetuaTheme.scss */
 #eines > li > a {
   color: #333;
 }
 
-/* line 486, ../scss/SantaPerpetuaTheme.scss */
+/* line 483, ../scss/SantaPerpetuaTheme.scss */
 .thumbnail, .thumb-img img, .photoAlbumEntry a {
   border: 0 none;
   border-radius: 0 0 0 0;
@@ -2774,41 +610,41 @@ b, strong {
   box-shadow: none;
 }
 
-/* line 495, ../scss/SantaPerpetuaTheme.scss */
+/* line 492, ../scss/SantaPerpetuaTheme.scss */
 #mySlider {
   box-shadow: none;
   margin: 0 0 15px;
   padding: 0;
 }
 
-/* line 500, ../scss/SantaPerpetuaTheme.scss */
+/* line 497, ../scss/SantaPerpetuaTheme.scss */
 #myCarousel .thumbnails {
   margin-bottom: 0;
 }
 
-/* line 503, ../scss/SantaPerpetuaTheme.scss */
+/* line 500, ../scss/SantaPerpetuaTheme.scss */
 .template-homepage #mySlider {
   margin: 0;
 }
 
-/* line 506, ../scss/SantaPerpetuaTheme.scss */
+/* line 503, ../scss/SantaPerpetuaTheme.scss */
 .carousel img {
   border: 0;
 }
 
-/* line 507, ../scss/SantaPerpetuaTheme.scss */
+/* line 504, ../scss/SantaPerpetuaTheme.scss */
 .carousel img:hover {
   cursor: pointer;
   border: 0;
   opacity: 0.8;
 }
 
-/* line 512, ../scss/SantaPerpetuaTheme.scss */
+/* line 509, ../scss/SantaPerpetuaTheme.scss */
 .carousel .active > img, .carousel .selected > img {
   border-radius: 0;
 }
 
-/* line 518, ../scss/SantaPerpetuaTheme.scss */
+/* line 515, ../scss/SantaPerpetuaTheme.scss */
 .carousel-inner {
   border-image: none;
   border-radius: 0 0 0 0;
@@ -2819,7 +655,7 @@ b, strong {
   box-shadow: none;
 }
 
-/* line 528, ../scss/SantaPerpetuaTheme.scss */
+/* line 525, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu {
   background: none repeat scroll 0 0 #e7e7e7;
   border: 0 none;
@@ -2827,39 +663,39 @@ b, strong {
   width: 99.8% !important;
 }
 
-/* line 534, ../scss/SantaPerpetuaTheme.scss */
+/* line 531, ../scss/SantaPerpetuaTheme.scss */
 #peu {
   background: none repeat scroll 0 0 #FFFFFF;
   border-top: 0 none;
   font-size: 92.3077%;
 }
 
-/* line 539, ../scss/SantaPerpetuaTheme.scss */
+/* line 536, ../scss/SantaPerpetuaTheme.scss */
 #peu .container {
   border-top: 0 none;
   margin-top: 0;
 }
 
-/* line 543, ../scss/SantaPerpetuaTheme.scss */
+/* line 540, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu li a {
   color: black;
   font-size: 12px;
   margin-left: 10px;
 }
 
-/* line 548, ../scss/SantaPerpetuaTheme.scss */
+/* line 545, ../scss/SantaPerpetuaTheme.scss */
 .menu_peu_links ul li {
   border-bottom: 1px solid white;
   padding-bottom: 4px;
   padding-top: 4px;
 }
 
-/* line 553, ../scss/SantaPerpetuaTheme.scss */
+/* line 550, ../scss/SantaPerpetuaTheme.scss */
 .portlet_mes_consultat {
   margin-bottom: 20px;
 }
 
-/* line 557, ../scss/SantaPerpetuaTheme.scss */
+/* line 554, ../scss/SantaPerpetuaTheme.scss */
 .portlet-static-social-links {
   background: none repeat scroll 0 0 white;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -2868,7 +704,7 @@ b, strong {
   text-align: center;
 }
 
-/* line 564, ../scss/SantaPerpetuaTheme.scss */
+/* line 561, ../scss/SantaPerpetuaTheme.scss */
 .portlet-static-social-links img {
   height: auto;
   margin-left: 6px;
@@ -2876,28 +712,28 @@ b, strong {
   width: 50px;
 }
 
-/* line 570, ../scss/SantaPerpetuaTheme.scss */
+/* line 567, ../scss/SantaPerpetuaTheme.scss */
 .portlet-static-social-links img:hover {
   opacity: 0.9;
   transition: all 0.2s ease-in-out 0s;
 }
 
-/* line 571, ../scss/SantaPerpetuaTheme.scss */
+/* line 568, ../scss/SantaPerpetuaTheme.scss */
 .portlet-noticies {
   padding-bottom: 3px;
 }
 
-/* line 574, ../scss/SantaPerpetuaTheme.scss */
+/* line 571, ../scss/SantaPerpetuaTheme.scss */
 .portlet-noticies .icon-news {
   display: none;
 }
 
-/* line 576, ../scss/SantaPerpetuaTheme.scss */
+/* line 573, ../scss/SantaPerpetuaTheme.scss */
 .portlet-noticies .list-portlet li {
   border-top: 0;
 }
 
-/* line 578, ../scss/SantaPerpetuaTheme.scss */
+/* line 575, ../scss/SantaPerpetuaTheme.scss */
 .carousel {
   background: none repeat scroll 0 0 #FFFFFF;
   box-shadow: none;
@@ -2909,21 +745,21 @@ b, strong {
   position: relative;
 }
 
-/* line 589, ../scss/SantaPerpetuaTheme.scss */
+/* line 586, ../scss/SantaPerpetuaTheme.scss */
 .carousel_normal .carousel-control {
   margin-top: 0;
   opacity: 0.2;
   top: 30%;
 }
 
-/* line 594, ../scss/SantaPerpetuaTheme.scss */
+/* line 591, ../scss/SantaPerpetuaTheme.scss */
 .dropdown-menu {
   background: none repeat scroll 0 0 #000000;
   border-radius: 0;
   color: #FFFFFF;
 }
 
-/* line 599, ../scss/SantaPerpetuaTheme.scss */
+/* line 596, ../scss/SantaPerpetuaTheme.scss */
 .dropdown-menu a {
   clear: both;
   color: #FFFFFF;
@@ -2934,30 +770,30 @@ b, strong {
   white-space: nowrap;
 }
 
-/* line 608, ../scss/SantaPerpetuaTheme.scss */
+/* line 605, ../scss/SantaPerpetuaTheme.scss */
 .navbar .nav > li > .dropdown-menu:after, .navbar .contentViews > li > .dropdown-menu:after, .navbar .configlets > li > .dropdown-menu:after, .navbar .formTabs > li > .dropdown-menu:after {
   border-bottom: 6px solid #000000;
 }
 
-/* line 611, ../scss/SantaPerpetuaTheme.scss */
+/* line 608, ../scss/SantaPerpetuaTheme.scss */
 .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
   background-color: #444444;
   background-image: none;
 }
 
-/* line 615, ../scss/SantaPerpetuaTheme.scss */
+/* line 612, ../scss/SantaPerpetuaTheme.scss */
 .portletStaticText ul {
   font-size: 14px;
   list-style: disc outside none;
   margin-left: 15px;
 }
 
-/* line 620, ../scss/SantaPerpetuaTheme.scss */
+/* line 617, ../scss/SantaPerpetuaTheme.scss */
 .portletStaticText li {
   margin-top: 10px;
 }
 
-/* line 624, ../scss/SantaPerpetuaTheme.scss */
+/* line 621, ../scss/SantaPerpetuaTheme.scss */
 .carousel-control {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
   opacity: 1;
@@ -2966,76 +802,76 @@ b, strong {
   line-height: 30px;
 }
 
-/* line 631, ../scss/SantaPerpetuaTheme.scss */
+/* line 628, ../scss/SantaPerpetuaTheme.scss */
 .carousel-control:hover {
   background: white;
   opacity: 1;
 }
 
-/* line 635, ../scss/SantaPerpetuaTheme.scss */
+/* line 632, ../scss/SantaPerpetuaTheme.scss */
 .breadcrumb a {
   color: black;
 }
 
-/* line 642, ../scss/SantaPerpetuaTheme.scss */
+/* line 639, ../scss/SantaPerpetuaTheme.scss */
 #portal-header h1 {
   float: left;
   margin-bottom: 10px;
   margin-top: 15px;
 }
 
-/* line 648, ../scss/SantaPerpetuaTheme.scss */
+/* line 645, ../scss/SantaPerpetuaTheme.scss */
 .text_Destacat {
   float: left;
   width: 65%;
 }
 
-/* line 652, ../scss/SantaPerpetuaTheme.scss */
+/* line 649, ../scss/SantaPerpetuaTheme.scss */
 .imatge_Destacada {
   float: left;
   width: 30%;
 }
 
-/* line 657, ../scss/SantaPerpetuaTheme.scss */
+/* line 654, ../scss/SantaPerpetuaTheme.scss */
 #baners ul li {
   background: none repeat scroll 0 0 transparent;
 }
 
-/* line 660, ../scss/SantaPerpetuaTheme.scss */
+/* line 657, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar .brand {
   color: #FFFFFF;
   text-shadow: none;
 }
 
-/* line 664, ../scss/SantaPerpetuaTheme.scss */
+/* line 661, ../scss/SantaPerpetuaTheme.scss */
 input, button, select, textarea {
   font-family: 'Open Sans',sans-serif;
 }
 
 @media only screen 
 and (max-width : 640px) {
-  /* line 671, ../scss/SantaPerpetuaTheme.scss */
+  /* line 668, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .navbar-inner {
     padding: 0 0 0 5px;
   }
 
-  /* line 674, ../scss/SantaPerpetuaTheme.scss */
+  /* line 671, ../scss/SantaPerpetuaTheme.scss */
   .navbar .btn-navbar, .navbar .btn-navbar:active {
     background-color: #444444;
     background-image: none;
   }
 
-  /* line 678, ../scss/SantaPerpetuaTheme.scss */
+  /* line 675, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .nav-collapse .nav > li > a, #portal-globalnav .nav-collapse .contentViews > li > a, #portal-globalnav .nav-collapse .configlets > li > a, #portal-globalnav .nav-collapse .formTabs > li > a, #portal-globalnav .nav-collapse .dropdown-menu a, .nav-collapse-eines.nav-collapse .nav > li > a, .nav-collapse-eines.nav-collapse .contentViews > li > a, .nav-collapse-eines.nav-collapse .configlets > li > a, .nav-collapse-eines.nav-collapse .formTabs > li > a, .nav-collapse-eines.nav-collapse .dropdown-menu a {
     padding: 5px 15px 5px 5px;
   }
 
-  /* line 681, ../scss/SantaPerpetuaTheme.scss */
+  /* line 678, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .nav > li {
     border-bottom: 1px solid;
   }
 
-  /* line 684, ../scss/SantaPerpetuaTheme.scss */
+  /* line 681, ../scss/SantaPerpetuaTheme.scss */
   #content-area, #portal-column-content {
     margin-top: 5px;
     padding-bottom: 0;
@@ -3043,17 +879,17 @@ and (max-width : 640px) {
     padding-right: 0;
   }
 
-  /* line 690, ../scss/SantaPerpetuaTheme.scss */
+  /* line 687, ../scss/SantaPerpetuaTheme.scss */
   #portal-breadcrumbs {
     margin-top: 10px;
   }
 
-  /* line 695, ../scss/SantaPerpetuaTheme.scss */
+  /* line 692, ../scss/SantaPerpetuaTheme.scss */
   .subnavbar {
     margin-bottom: 15px;
   }
 
-  /* line 699, ../scss/SantaPerpetuaTheme.scss */
+  /* line 696, ../scss/SantaPerpetuaTheme.scss */
   #baners ul {
     background: none repeat scroll 0 0 white;
     border: 8px solid white;
@@ -3062,100 +898,100 @@ and (max-width : 640px) {
     margin-left: 0;
   }
 
-  /* line 706, ../scss/SantaPerpetuaTheme.scss */
+  /* line 703, ../scss/SantaPerpetuaTheme.scss */
   #baners ul li:last-child {
     margin-bottom: 0;
   }
 
-  /* line 709, ../scss/SantaPerpetuaTheme.scss */
+  /* line 706, ../scss/SantaPerpetuaTheme.scss */
   #portal-column-content .span9, #portal-column-content .span4 {
     margin-left: 0;
   }
 
-  /* line 712, ../scss/SantaPerpetuaTheme.scss */
+  /* line 709, ../scss/SantaPerpetuaTheme.scss */
   [class*="span"], .cella {
     margin-bottom: 15px;
   }
 
-  /* line 715, ../scss/SantaPerpetuaTheme.scss */
+  /* line 712, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada {
     margin-bottom: 10px!important;
   }
 
-  /* line 716, ../scss/SantaPerpetuaTheme.scss */
+  /* line 713, ../scss/SantaPerpetuaTheme.scss */
   .text_Destacat {
     margin-left: 0 !important;
   }
 
-  /* line 717, ../scss/SantaPerpetuaTheme.scss */
+  /* line 714, ../scss/SantaPerpetuaTheme.scss */
   .text_Destacat {
     float: left;
     width: 100%;
   }
 
-  /* line 721, ../scss/SantaPerpetuaTheme.scss */
+  /* line 718, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada {
     float: left;
     width: 100%;
   }
 
-  /* line 725, ../scss/SantaPerpetuaTheme.scss */
+  /* line 722, ../scss/SantaPerpetuaTheme.scss */
   .link_footer_destacat {
     float: left;
     clear: both;
   }
 
-  /* line 729, ../scss/SantaPerpetuaTheme.scss */
+  /* line 726, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada img {
     width: 100%;
   }
 
-  /* line 732, ../scss/SantaPerpetuaTheme.scss */
+  /* line 729, ../scss/SantaPerpetuaTheme.scss */
   .header-image {
     background-size: auto;
     background-position: center center;
   }
 
-  /* line 736, ../scss/SantaPerpetuaTheme.scss */
+  /* line 733, ../scss/SantaPerpetuaTheme.scss */
   .portletCalendar .ploneCalendar {
     font-size: 100%;
   }
 
-  /* line 739, ../scss/SantaPerpetuaTheme.scss */
+  /* line 736, ../scss/SantaPerpetuaTheme.scss */
   .weekdays th {
     padding: 12px;
   }
 
-  /* line 742, ../scss/SantaPerpetuaTheme.scss */
+  /* line 739, ../scss/SantaPerpetuaTheme.scss */
   .carousel-inner {
     padding-left: 0;
   }
 
-  /* line 746, ../scss/SantaPerpetuaTheme.scss */
+  /* line 743, ../scss/SantaPerpetuaTheme.scss */
   .carousel img {
     width: 100%;
   }
 
-  /* line 749, ../scss/SantaPerpetuaTheme.scss */
+  /* line 746, ../scss/SantaPerpetuaTheme.scss */
   .carousel .item {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 753, ../scss/SantaPerpetuaTheme.scss */
+  /* line 750, ../scss/SantaPerpetuaTheme.scss */
   #portal-header .btn-navbar.pull-right, #portal-header .btn-navbar.newsImageContainer {
     margin-left: 85%;
     position: absolute;
   }
 
-  /* line 757, ../scss/SantaPerpetuaTheme.scss */
+  /* line 754, ../scss/SantaPerpetuaTheme.scss */
   #portal-header h1 {
     width: 260px;
     margin-bottom: -5px;
   }
 }
 /* NOVA NAVEGACIO PAGINA PRINCIPAL */
-/* line 764, ../scss/SantaPerpetuaTheme.scss */
+/* line 761, ../scss/SantaPerpetuaTheme.scss */
 .accordion {
   margin-bottom: 18px;
   background: none repeat scroll 0 0 white;
@@ -3168,7 +1004,7 @@ and (max-width : 640px) {
   margin-bottom: 18px;
 }
 
-/* line 776, ../scss/SantaPerpetuaTheme.scss */
+/* line 773, ../scss/SantaPerpetuaTheme.scss */
 .accordion-toggle {
   font-size: 14px;
   background-color: #0073B8;
@@ -3187,7 +1023,7 @@ and (max-width : 640px) {
   text-shadow: none !important;
 }
 
-/* line 794, ../scss/SantaPerpetuaTheme.scss */
+/* line 791, ../scss/SantaPerpetuaTheme.scss */
 .accordion-heading a:hover {
   background-color: #e7e7e7;
   background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
@@ -3200,7 +1036,7 @@ and (max-width : 640px) {
   color: #222222;
 }
 
-/* line 806, ../scss/SantaPerpetuaTheme.scss */
+/* line 803, ../scss/SantaPerpetuaTheme.scss */
 .accordion-group {
   margin-bottom: 2px;
   border: none;
@@ -3210,7 +1046,7 @@ and (max-width : 640px) {
   background: #fcfcfc;
 }
 
-/* line 817, ../scss/SantaPerpetuaTheme.scss */
+/* line 814, ../scss/SantaPerpetuaTheme.scss */
 .accordion-heading a:hover:after,
 .accordion-heading .active a:after,
 .accordion-heading .selected a:after {
@@ -3235,7 +1071,7 @@ and (max-width : 640px) {
   height: 17px;
 }
 
-/* line 839, ../scss/SantaPerpetuaTheme.scss */
+/* line 836, ../scss/SantaPerpetuaTheme.scss */
 .accordion-body {
   margin-left: 0;
   margin-right: 0x;
@@ -3248,47 +1084,47 @@ and (max-width : 640px) {
   overflow: visible;
 }
 
-/* line 850, ../scss/SantaPerpetuaTheme.scss */
+/* line 847, ../scss/SantaPerpetuaTheme.scss */
 #accordionLogin {
   margin-top: 20px;
   min-height: 280px;
   padding: 20px;
 }
 
-/* line 855, ../scss/SantaPerpetuaTheme.scss */
+/* line 852, ../scss/SantaPerpetuaTheme.scss */
 #accordionLogin .accordion-body {
   box-shadow: none;
 }
 
-/* line 858, ../scss/SantaPerpetuaTheme.scss */
+/* line 855, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul, .subnavbar .nav-list .selected ul {
   border-top: 0 none;
 }
 
-/* line 861, ../scss/SantaPerpetuaTheme.scss */
+/* line 858, ../scss/SantaPerpetuaTheme.scss */
 #accordionLogin .accordion-inner {
   border-top: 0;
   margin-top: 25px;
 }
 
-/* line 865, ../scss/SantaPerpetuaTheme.scss */
+/* line 862, ../scss/SantaPerpetuaTheme.scss */
 #accordionLogin .accordion-group {
   background: transparent;
 }
 
-/* line 868, ../scss/SantaPerpetuaTheme.scss */
+/* line 865, ../scss/SantaPerpetuaTheme.scss */
 .accordion-inner {
   border-top: 1px solid #DEDEDE;
   padding: 0;
 }
 
-/* line 873, ../scss/SantaPerpetuaTheme.scss */
+/* line 870, ../scss/SantaPerpetuaTheme.scss */
 h1, h2, h3 {
   color: #000000;
   margin-top: 27px;
 }
 
-/* line 877, ../scss/SantaPerpetuaTheme.scss */
+/* line 874, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-content {
   background: none repeat scroll 0 0 #FFFFFF;
   box-shadow: none;
@@ -3297,12 +1133,12 @@ h1, h2, h3 {
   padding: 0;
 }
 
-/* line 884, ../scss/SantaPerpetuaTheme.scss */
+/* line 881, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-one {
   margin-right: 20px;
 }
 
-/* line 887, ../scss/SantaPerpetuaTheme.scss */
+/* line 884, ../scss/SantaPerpetuaTheme.scss */
 .template-homepage #portal-column-content {
   background: transparent;
   box-shadow: none;
@@ -3311,8 +1147,9 @@ h1, h2, h3 {
   margin-left: 0!important;
 }
 
-/* line 894, ../scss/SantaPerpetuaTheme.scss */
+/* line 891, ../scss/SantaPerpetuaTheme.scss */
 .liniaBaix, .documentFirstHeading {
+  color: #000000;
   border-bottom: 1px solid #BEBEBE;
   box-shadow: none;
   margin: 0 10px 5px 0;
@@ -3321,25 +1158,25 @@ h1, h2, h3 {
   padding-top: 0;
 }
 
-/* line 902, ../scss/SantaPerpetuaTheme.scss */
+/* line 900, ../scss/SantaPerpetuaTheme.scss */
 #viewlet-below-content-title {
   color: #888888;
   font-size: 11px;
   margin-bottom: 15px;
 }
 
-/* line 907, ../scss/SantaPerpetuaTheme.scss */
+/* line 905, ../scss/SantaPerpetuaTheme.scss */
 #portal-breadcrumbs {
   margin-top: 5px;
   font-size: 14px;
 }
 
-/* line 911, ../scss/SantaPerpetuaTheme.scss */
+/* line 909, ../scss/SantaPerpetuaTheme.scss */
 #portal-breadcrumbs h2 {
   padding-left: 0;
 }
 
-/* line 914, ../scss/SantaPerpetuaTheme.scss */
+/* line 912, ../scss/SantaPerpetuaTheme.scss */
 .documentDescription {
   font-size: 16px;
   color: #777;
@@ -3348,17 +1185,17 @@ h1, h2, h3 {
   text-align: justify;
 }
 
-/* line 921, ../scss/SantaPerpetuaTheme.scss */
+/* line 919, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a span:before, .subnavbar .nav-list .selected ul a span:before {
   top: 2px;
 }
 
-/* line 929, ../scss/SantaPerpetuaTheme.scss */
+/* line 927, ../scss/SantaPerpetuaTheme.scss */
 .carousel_mobile {
   display: block;
 }
 
-/* line 932, ../scss/SantaPerpetuaTheme.scss */
+/* line 930, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet h2 {
   font-size: 16px;
   font-weight: bold;
@@ -3368,14 +1205,14 @@ h1, h2, h3 {
   text-transform: none;
 }
 
-/* line 940, ../scss/SantaPerpetuaTheme.scss */
+/* line 938, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet li .smaller {
   color: #999999;
   font-size: 14px;
   white-space: nowrap;
 }
 
-/* line 945, ../scss/SantaPerpetuaTheme.scss */
+/* line 943, ../scss/SantaPerpetuaTheme.scss */
 .noticies .newsImage {
   float: left;
   height: auto;
@@ -3386,55 +1223,55 @@ h1, h2, h3 {
   width: 185px;
 }
 
-/* line 954, ../scss/SantaPerpetuaTheme.scss */
+/* line 952, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-content {
   margin-left: 0;
 }
 
-/* line 957, ../scss/SantaPerpetuaTheme.scss */
+/* line 955, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments ul time {
   color: #000000;
 }
 
-/* line 960, ../scss/SantaPerpetuaTheme.scss */
+/* line 958, ../scss/SantaPerpetuaTheme.scss */
 .portlet-esdeveniments ul a {
   border-left: 0 none;
 }
 
-/* line 963, ../scss/SantaPerpetuaTheme.scss */
+/* line 961, ../scss/SantaPerpetuaTheme.scss */
 .userrole-anonymous .documentByLine {
   display: none;
 }
 
-/* line 964, ../scss/SantaPerpetuaTheme.scss */
+/* line 962, ../scss/SantaPerpetuaTheme.scss */
 dd {
   margin-bottom: 10px;
   margin-left: 0;
 }
 
-/* line 968, ../scss/SantaPerpetuaTheme.scss */
+/* line 966, ../scss/SantaPerpetuaTheme.scss */
 dt {
   font-size: 16px;
 }
 
-/* line 971, ../scss/SantaPerpetuaTheme.scss */
+/* line 969, ../scss/SantaPerpetuaTheme.scss */
 .list-portlet li {
   padding: 8px 0 !important;
 }
 
-/* line 974, ../scss/SantaPerpetuaTheme.scss */
+/* line 972, ../scss/SantaPerpetuaTheme.scss */
 .liniaDalt, .tileHeadline {
   border-top: 0;
   box-shadow: none;
 }
 
-/* line 978, ../scss/SantaPerpetuaTheme.scss */
+/* line 976, ../scss/SantaPerpetuaTheme.scss */
 .tileItem {
   border-bottom: 1px solid #B2B2B2;
   padding-bottom: 10px;
 }
 
-/* line 983, ../scss/SantaPerpetuaTheme.scss */
+/* line 981, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list {
   background: none repeat scroll 0 0 #FFFFFF;
   border: 0 none;
@@ -3444,13 +1281,13 @@ dt {
   padding-right: 0;
 }
 
-/* line 991, ../scss/SantaPerpetuaTheme.scss */
+/* line 989, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a {
   color: white;
   font-weight: 600;
 }
 
-/* line 995, ../scss/SantaPerpetuaTheme.scss */
+/* line 993, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a {
   font-size: 14px;
   background-color: #c8c8c8;
@@ -3470,18 +1307,18 @@ dt {
   text-transform: uppercase;
 }
 
-/* line 1013, ../scss/SantaPerpetuaTheme.scss */
+/* line 1011, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list li:first-child a {
   border-radius: 0 0 0 0;
   border-top: 0 none !important;
 }
 
-/* line 1017, ../scss/SantaPerpetuaTheme.scss */
+/* line 1015, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list li:last-child a:only-child {
   border-radius: 0 0 0 0;
 }
 
-/* line 1020, ../scss/SantaPerpetuaTheme.scss */
+/* line 1018, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a, .subnavbar .nav-list .selected ul a {
   background: #eeeeee!important;
   border-radius: 0 !important;
@@ -3495,42 +1332,42 @@ dt {
   padding: 0 !important;
 }
 
-/* line 1033, ../scss/SantaPerpetuaTheme.scss */
+/* line 1031, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a span:before, .subnavbar .nav-list .selected ul a span:before {
   color: #444;
 }
 
-/* line 1037, ../scss/SantaPerpetuaTheme.scss */
+/* line 1035, ../scss/SantaPerpetuaTheme.scss */
 .pad {
   padding: 10px 0 0;
 }
 
-/* line 1040, ../scss/SantaPerpetuaTheme.scss */
+/* line 1038, ../scss/SantaPerpetuaTheme.scss */
 .portlet > .pad {
   border-bottom: 0 none;
 }
 
-/* line 1043, ../scss/SantaPerpetuaTheme.scss */
+/* line 1041, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul, .subnavbar .nav-list .selected ul {
   margin-left: 0!important;
   margin-right: 0;
   box-shadow: none;
 }
 
-/* line 1048, ../scss/SantaPerpetuaTheme.scss */
+/* line 1046, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a:hover:after, .subnavbar .nav-list .active a:after, .subnavbar .nav-list .selected a:after {
   background-color: transparent;
   background-image: none;
   box-shadow: none;
 }
 
-/* line 1053, ../scss/SantaPerpetuaTheme.scss */
+/* line 1051, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a[class^="contenttype-"] span:after, .subnavbar .nav-list .selected ul a[class^="contenttype-"] span:after, .subnavbar .nav-list .active ul a[class*=" contenttype-"] span:after, .subnavbar .nav-list .selected ul a[class*=" contenttype-"] span:after {
   background-image: none;
   background-repeat: no-repeat;
 }
 
-/* line 1057, ../scss/SantaPerpetuaTheme.scss */
+/* line 1055, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a span, .subnavbar .nav-list .selected ul a span {
   border-top: 0 none!important;
   text-transform: none;
@@ -3539,85 +1376,85 @@ dt {
   margin-left: 0;
 }
 
-/* line 1064, ../scss/SantaPerpetuaTheme.scss */
+/* line 1062, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a {
   font-size: 13px;
 }
 
-/* line 1065, ../scss/SantaPerpetuaTheme.scss */
+/* line 1063, ../scss/SantaPerpetuaTheme.scss */
 .navTreeLevel2 {
   background: #eee!important;
 }
 
-/* line 1068, ../scss/SantaPerpetuaTheme.scss */
+/* line 1066, ../scss/SantaPerpetuaTheme.scss */
 .navTreeLevel2 .navTreeFolderish {
   margin-left: 15px;
 }
 
-/* line 1071, ../scss/SantaPerpetuaTheme.scss */
+/* line 1069, ../scss/SantaPerpetuaTheme.scss */
 .navTreeLevel2 .navTreeFolderish span {
   margin-left: 5px;
   font-size: 13px!important;
 }
 
-/* line 1075, ../scss/SantaPerpetuaTheme.scss */
+/* line 1073, ../scss/SantaPerpetuaTheme.scss */
 .navTreeLevel2 li span {
   font-size: 13px !important;
   margin-left: 10px !important;
 }
 
-/* line 1079, ../scss/SantaPerpetuaTheme.scss */
+/* line 1077, ../scss/SantaPerpetuaTheme.scss */
 #rufous-sandbox {
   display: none;
 }
 
-/* line 1080, ../scss/SantaPerpetuaTheme.scss */
+/* line 1078, ../scss/SantaPerpetuaTheme.scss */
 #portlet-navigation-tree {
   padding-left: 0;
 }
 
-/* line 1084, ../scss/SantaPerpetuaTheme.scss */
+/* line 1082, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a span:before, .subnavbar .nav-list .selected ul a span:before {
   content: none;
 }
 
-/* line 1087, ../scss/SantaPerpetuaTheme.scss */
+/* line 1085, ../scss/SantaPerpetuaTheme.scss */
 #rufous-sandbox {
   display: none!important;
 }
 
-/* line 1088, ../scss/SantaPerpetuaTheme.scss */
+/* line 1086, ../scss/SantaPerpetuaTheme.scss */
 .template-folder_full_view h1:first-child, .template-folder_full_view h2:first-child, .template-folder_full_view h3:first-child {
   margin-top: 25px;
 }
 
-/* line 1091, ../scss/SantaPerpetuaTheme.scss */
+/* line 1089, ../scss/SantaPerpetuaTheme.scss */
 .table tr:first-child td, .listing tr:first-child td, .taulaRegistres tr:first-child td, .portaltype-packet .estudis table.minimal tr:first-child td {
   border-top: 5px solid #BBBBBB;
 }
 
-/* line 1094, ../scss/SantaPerpetuaTheme.scss */
+/* line 1092, ../scss/SantaPerpetuaTheme.scss */
 .listing a {
   color: black;
 }
 
-/* line 1095, ../scss/SantaPerpetuaTheme.scss */
+/* line 1093, ../scss/SantaPerpetuaTheme.scss */
 .template-folder_listing dt {
   padding-bottom: 10px;
 }
 
-/* line 1098, ../scss/SantaPerpetuaTheme.scss */
+/* line 1096, ../scss/SantaPerpetuaTheme.scss */
 .template-folder_listing dd {
   border-bottom: 1px solid #B2B2B2;
   padding: 0px 10px 15px 0;
 }
 
-/* line 1102, ../scss/SantaPerpetuaTheme.scss */
+/* line 1100, ../scss/SantaPerpetuaTheme.scss */
 .template-folder_listing .summary a {
   color: #333333;
 }
 
-/* line 1105, ../scss/SantaPerpetuaTheme.scss */
+/* line 1103, ../scss/SantaPerpetuaTheme.scss */
 .photoAlbumEntry {
   float: left;
   margin-bottom: 15px;
@@ -3627,17 +1464,17 @@ dt {
   position: relative;
 }
 
-/* line 1113, ../scss/SantaPerpetuaTheme.scss */
+/* line 1111, ../scss/SantaPerpetuaTheme.scss */
 .photoAlbumEntry a img:hover {
   opacity: 0.8;
 }
 
-/* line 1116, ../scss/SantaPerpetuaTheme.scss */
+/* line 1114, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list .active ul a.active, .subnavbar .nav-list .selected ul a.active, .subnavbar .nav-list .active ul a.selected, .subnavbar .nav-list .selected ul a.selected {
   background-color: #F5F5F5 !important;
 }
 
-/* line 1119, ../scss/SantaPerpetuaTheme.scss */
+/* line 1117, ../scss/SantaPerpetuaTheme.scss */
 .photoAlbumEntryTitle {
   background: none repeat scroll 0 0 #333333;
   color: #FFFFFF !important;
@@ -3649,18 +1486,18 @@ dt {
   width: 157px;
 }
 
-/* line 1130, ../scss/SantaPerpetuaTheme.scss */
+/* line 1128, ../scss/SantaPerpetuaTheme.scss */
 #equipament iframe {
   width: 100%;
   margin-top: 20px;
 }
 
-/* line 1134, ../scss/SantaPerpetuaTheme.scss */
+/* line 1132, ../scss/SantaPerpetuaTheme.scss */
 #equipament img {
   margin-bottom: 20px;
 }
 
-/* line 1137, ../scss/SantaPerpetuaTheme.scss */
+/* line 1135, ../scss/SantaPerpetuaTheme.scss */
 #equipament label.horizontal {
   font-size: 15px;
   margin-bottom: 15px;
@@ -3668,7 +1505,7 @@ dt {
   line-height: 30px;
 }
 
-/* line 1143, ../scss/SantaPerpetuaTheme.scss */
+/* line 1141, ../scss/SantaPerpetuaTheme.scss */
 #equipament .columnes {
   column-count: 2;
   -moz-column-count: 2;
@@ -3680,19 +1517,19 @@ dt {
   padding: 25px 20px 20px 30px;
 }
 
-/* line 1151, ../scss/SantaPerpetuaTheme.scss */
+/* line 1149, ../scss/SantaPerpetuaTheme.scss */
 #equipament .columnes label.horizontal {
   line-height: 15px;
 }
 
-/* line 1154, ../scss/SantaPerpetuaTheme.scss */
+/* line 1152, ../scss/SantaPerpetuaTheme.scss */
 #tramit .camptramit {
   background: none repeat scroll 0 0 #F5F5F5;
   margin-bottom: 20px;
   padding: 10px 20px;
 }
 
-/* line 1159, ../scss/SantaPerpetuaTheme.scss */
+/* line 1157, ../scss/SantaPerpetuaTheme.scss */
 #tramit .camptramit label.horizontal {
   font-size: 15px;
   margin-bottom: 15px;
@@ -3700,7 +1537,7 @@ dt {
   line-height: 30px;
 }
 
-/* line 1165, ../scss/SantaPerpetuaTheme.scss */
+/* line 1163, ../scss/SantaPerpetuaTheme.scss */
 #tramit .tramita {
   background: none repeat scroll 0 0 #000000;
   border-radius: 2px;
@@ -3711,12 +1548,12 @@ dt {
   padding: 10px 20px;
 }
 
-/* line 1174, ../scss/SantaPerpetuaTheme.scss */
+/* line 1172, ../scss/SantaPerpetuaTheme.scss */
 #tramit .tramita:hover {
   color: #ccc;
 }
 
-/* line 1177, ../scss/SantaPerpetuaTheme.scss */
+/* line 1175, ../scss/SantaPerpetuaTheme.scss */
 .tramit_annex:before {
   background: url("/++genweb++static/images/gh-w.png?1370877920") no-repeat scroll -162px -163px #111111;
   border: 1px solid;
@@ -3731,7 +1568,7 @@ dt {
   width: 25px;
 }
 
-/* line 1190, ../scss/SantaPerpetuaTheme.scss */
+/* line 1188, ../scss/SantaPerpetuaTheme.scss */
 .tramit_annex {
   background: none repeat scroll 0 0 #FFFFFF;
   border: 1px solid #777777;
@@ -3741,63 +1578,69 @@ dt {
   vertical-align: middle;
 }
 
-/* line 1198, ../scss/SantaPerpetuaTheme.scss */
+/* line 1196, ../scss/SantaPerpetuaTheme.scss */
 .tramit_annex:hover {
   text-decoration: none;
   background: none repeat scroll 0 0 #eee;
 }
 
-/* line 1202, ../scss/SantaPerpetuaTheme.scss */
+/* line 1200, ../scss/SantaPerpetuaTheme.scss */
 [class^="icon-"], #category.documentByLine:before, .tileFooter:before, [class*=" icon-"] {
   width: 20px;
 }
 
-/* line 1205, ../scss/SantaPerpetuaTheme.scss */
+/* line 1203, ../scss/SantaPerpetuaTheme.scss */
 .icon-carrousel {
   background-position: -335px -72px;
 }
 
-/* line 1208, ../scss/SantaPerpetuaTheme.scss */
+/* line 1206, ../scss/SantaPerpetuaTheme.scss */
 .icon-banner, .contenttype-bannercontainer:before {
   background-position: -191px -192px !important;
 }
 
-/* line 1211, ../scss/SantaPerpetuaTheme.scss */
+/* line 1209, ../scss/SantaPerpetuaTheme.scss */
 .icon-bannercontainer {
   background-position: -432px -143px;
 }
 
-/* line 1214, ../scss/SantaPerpetuaTheme.scss */
+/* line 1212, ../scss/SantaPerpetuaTheme.scss */
 .icon-equipament, .contenttype-equipament:before {
   background-position: -145px -193px;
 }
 
-/* line 1217, ../scss/SantaPerpetuaTheme.scss */
+/* line 1215, ../scss/SantaPerpetuaTheme.scss */
 .icon-tramit, .contenttype-tramit:before {
   background-position: -145px -72px;
 }
 
-/* line 1220, ../scss/SantaPerpetuaTheme.scss */
+/* line 1218, ../scss/SantaPerpetuaTheme.scss */
 .icon-slider {
   background-position: -360px -72px;
 }
 
-/* line 1223, ../scss/SantaPerpetuaTheme.scss */
+/* line 1221, ../scss/SantaPerpetuaTheme.scss */
 .icon-collection {
   background-position: -74px -192px;
 }
 
-/* line 1226, ../scss/SantaPerpetuaTheme.scss */
+/* line 1224, ../scss/SantaPerpetuaTheme.scss */
 .icons-on .contenttype-collection {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 
-/* line 1229, ../scss/SantaPerpetuaTheme.scss */
+/* line 1227, ../scss/SantaPerpetuaTheme.scss */
 .icons-on .contenttype-collection {
   padding-left: 11px !important;
 }
 
-/* line 1233, ../scss/SantaPerpetuaTheme.scss */
+/* line 1231, ../scss/SantaPerpetuaTheme.scss */
 #portal-globalnav .navbar .nav > li {
   background: none;
+}
+
+/* line 1235, ../scss/SantaPerpetuaTheme.scss */
+.subnavbar .nav-list .active a, .subnavbar .nav-list .selected a {
+  background: #d4d4d4;
+  color: #222222;
 }
