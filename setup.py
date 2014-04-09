@@ -3,7 +3,7 @@ import os
 
 version = '1.0b1'
 
-README = open("README.rst").read()
+README = open("README.md").read()
 HISTORY = open(os.path.join("docs", "HISTORY.rst")).read()
 
 setup(name='vilaix.santaperpetuamogoda',
