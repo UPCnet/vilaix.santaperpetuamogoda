@@ -3,7 +3,7 @@ import os
 
 version = '1.0b1'
 
-README = open("README.md").read()
+README = open("README.rst").read()
 HISTORY = open(os.path.join("docs", "HISTORY.rst")).read()
 
 setup(name='vilaix.santaperpetuamogoda',
@@ -11,14 +11,14 @@ setup(name='vilaix.santaperpetuamogoda',
       description="",
       long_description=README + "\n" + HISTORY,
       classifiers=[
-        "Environment :: Web Environment",
-        "Framework :: Plone",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 2.6",
-        "Programming Language :: Python :: 2.7",
-        "Topic :: Software Development :: Libraries :: Python Modules",
-        ],
+          "Environment :: Web Environment",
+          "Framework :: Plone",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2.6",
+          "Programming Language :: Python :: 2.7",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+      ],
       keywords='',
       author='UPCnet Plone Team',
       author_email='plone.team@upcnet.es',

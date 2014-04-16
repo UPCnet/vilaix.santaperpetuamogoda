@@ -19,26 +19,16 @@
   <browser:jbot
       directory="templates"
       layer=".interfaces.ISantaPerpetuaLayer"
-  />
+    />
 
-   <!-- Resource traversers -->
-  <adapter
-      name="santaperpetua"
-      for="* zope.publisher.interfaces.IRequest"
-      provides="zope.traversing.interfaces.ITraversable"
-      factory=".traversal.SantaPerpetuaTraverser"
+  <browser:resource
+      name="SantaPerpetuaTheme.css"
+      file="stylesheets/SantaPerpetuaTheme.css"
       />
- 
-  <plone:static
-      directory="stylesheets"
-      type="santaperpetua"
-      name="stylesheets"
-      />
-  
-  <plone:static
-      directory="static"
-      type="santaperpetua"
-      name="static"
+
+  <browser:resource
+      name="logoVILAIX.png"
+      file="static/images/logoVILAIX.png"
       />
 
   <genericsetup:registerProfile

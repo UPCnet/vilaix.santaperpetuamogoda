@@ -37,7 +37,7 @@
     <meta name="author" content="Genweb Vilaix" />
     <meta name="description" content="Genweb Vilaix v4.0" />
     <link rel="shortcut icon" type="image/x-icon" tal:attributes="href string:${portal_url}/++vilaix++static/favicon.ico" />
-    
+
     <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 
     <metal:baseslot define-slot="base">
@@ -69,7 +69,7 @@
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/++vilaix++stylesheets/VilaixTheme.css">
         <!-- <link rel="stylesheet" tal:attributes="href string:${portal_url}/dynamic.css"> -->
         <!-- <script tal:attributes="src string:${portal_url}/++bootstrap++js/modernizr-2.6.1.min.js"></script> -->
-        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++santaperpetua++stylesheets/SantaPerpetuaTheme.css">
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++resource++SantaPerpetuaTheme.css">
 
     </tal:notajax>
 </head>
