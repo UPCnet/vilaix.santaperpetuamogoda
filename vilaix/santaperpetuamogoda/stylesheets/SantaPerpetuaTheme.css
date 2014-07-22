@@ -1659,3 +1659,58 @@ dt {
 h3 img {
   padding-right: 4px;
 }
+
+/* line 1248, ../scss/SantaPerpetuaTheme.scss */
+.liniaBaix, .documentFirstHeading {
+  color: #650065;
+  border-bottom: 1px solid #BEBEBE;
+  box-shadow: none;
+  margin: 0 10px 5px 0;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+/* line 1257, ../scss/SantaPerpetuaTheme.scss */
+.subnavbar .nav-list a {
+  font-size: 13px;
+  background-color: #D4D4D4;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+/* line 1262, ../scss/SantaPerpetuaTheme.scss */
+#content-area, #portal-column-content {
+  margin-top: 25px;
+}
+
+/* line 1265, ../scss/SantaPerpetuaTheme.scss */
+#portal-column-content.span9 {
+  margin-top: 0;
+}
+
+/* line 1269, ../scss/SantaPerpetuaTheme.scss */
+.portlet h3 a {
+  color: black;
+}
+
+/* line 1273, ../scss/SantaPerpetuaTheme.scss */
+.subnavbar .nav-list a {
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+  line-height: 16px;
+  text-shadow: none !important;
+}
+
+/* line 1281, ../scss/SantaPerpetuaTheme.scss */
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #555555;
+}
+
+/* line 1286, ../scss/SantaPerpetuaTheme.scss */
+.subnavbar .nav-list a:hover:after, .subnavbar .nav-list .active a:after, .subnavbar .nav-list .selected a:after {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
