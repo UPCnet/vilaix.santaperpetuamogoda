@@ -7,8 +7,8 @@ html {
     font-size: 100%;
 }
 body {
-	background:#fff;
-	font-family: 'Cabin', sans-serif;
+    background:#fff;
+    font-family: 'Cabin', sans-serif;
     color: #555555;
     line-height: 20px;
 }
@@ -29,9 +29,9 @@ h2 a, h3 a {
 //CAPSALERA
 
 #portal-header {
-	border-top: none;
-	border-bottom: none;
-	background:#e7e4e3;
+    border-top: none;
+    border-bottom: none;
+    background:#e7e4e3;
 }
 #portal-header .container {
     border-bottom: 0 none;
@@ -41,78 +41,78 @@ h2 a, h3 a {
 }
 
 .header-image {
-	background-image: url('/++vilaix++static/images/capcalera.jpg');
-	margin-top: 10px !important;
-	background-repeat:no-repeat;	
+    background-image: url('/++vilaix++static/images/capcalera.jpg');
+    margin-top: 10px !important;
+    background-repeat:no-repeat;
 }
 
 //MENU NAVEGACIO
 
  .navbar-inner {
- 	border: none;
+    border: none;
  }
 
 #portal-globalnav {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 #portal-globalnav .nav > li > a {
- 	color: white;
-	background-color: #4B4B4D;
-	font-weight: normal;
-	border-right: none;		
-	margin-right: 5px;
+    color: white;
+    background-color: #4B4B4D;
+    font-weight: normal;
+    border-right: none;
+    margin-right: 5px;
 }
 
 #portal-globalnav .navbar-inner {
-	padding: 0;
-	border-bottom: none;
+    padding: 0;
+    border-bottom: none;
 }
 
 .navbar-inner {
-	min-height: 36px;	
-	background-color: #e7e4e3;
-	background-image: none !important;	
-	border: none !important;
-	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    min-height: 36px;
+    background-color: #e7e4e3;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .nav > li {
-	padding-top: 3px;
+    padding-top: 3px;
 }
 
 #portal-globalnav .state-published, #portal-globalnav #workflow-transition-publish {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 #portal-globalnav .state-draft, #portal-globalnav #workflow-transition-reject, #portal-globalnav #workflow-transition-retiraaesborrany, #portal-globalnav #workflow-transition-show, #portal-globalnav .state-visible {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 #portal-globalnav .state-private, #portal-globalnav #workflow-transition-hide {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 #portal-globalnav .navbar .nav > li > a:focus, #portal-globalnav .navbar .contentViews > li > a:focus, #portal-globalnav .navbar .configlets > li > a:focus, #portal-globalnav .navbar .formTabs > li > a:focus, #portal-globalnav .navbar .nav > li > a:hover, #portal-globalnav .navbar .contentViews > li > a:hover, #portal-globalnav .navbar .configlets > li > a:hover, #portal-globalnav .navbar .formTabs > li > a:hover {
-	-webkit-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
-	-moz-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
-	box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
+    box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.75);
 }
 
 .portlet {
-	margin-bottom: 20px;
-	border: 0;
-	background: white;
+    margin-bottom: 20px;
+    border: 0;
+    background: white;
 }
 
 .portlet h2 {
-	margin: 0;
-	font-size: 16px;
-	color: white;	
-	padding: 10px 15px;
-	line-height: 18px;
-	position: relative;
-	border-bottom-width: 0px;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    padding: 10px 15px;
+    line-height: 18px;
+    position: relative;
+    border-bottom-width: 0px;
     text-transform:uppercase;
 }
 .portlet h2 a, .portlet a {
@@ -130,65 +130,66 @@ h2 a, h3 a {
 }
 
 .list-portlet .noticies {
-	height: auto;	
-	padding: 8px 0 8px 0px !important;
-	margin-right: 0px;
-	list-style: none !important;
-	content: "" !important;
+    height: auto;
+    padding: 8px 0 8px 0px !important;
+    margin-right: 0px;
+    list-style: none !important;
+    content: "" !important;
 }
 .list-portlet .noticies .imatge {
-	float: left;
-	width: 132px;
-	height: 80px;
-	padding: 2px;
+    float: left;
+    width: 132px;
+    height: 80px;
+    padding: 2px;
 }
 
 .noticies h2 {
-	margin: 0;
-	font-size: 16px;
+    margin: 0;
+    font-size: 16px;
     line-height: 21px;
-	color: white;
-	padding: 0px 0px;
-	position: relative;
-	border-bottom-width: 0px;
-	background: none;
+    color: white;
+    padding: 0px 0px;
+    position: relative;
+    border-bottom-width: 0px;
+    background: none;
 }
 
 .noticies p {
-	margin: 0 0 0px;
+    margin: 0 0 0px;
 }
 
 .list-portlet li::before {
-	content: none;
-	position: absolute;
-	font-size: 52px;
-	margin-left: -20px;
-	margin-top: -15px;
-	color: #0EA8FF;
+    content: none;
+    position: absolute;
+    font-size: 52px;
+    margin-left: -20px;
+    margin-top: -15px;
+    color: #0EA8FF;
 }
 
 .portlet .portlet-footer {
-	text-align: right;
-	padding: 0px 0px 0px;
-	color: white;
-	font-weight: bold;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0 0 2px;
+    text-align: right;
 }
 
 .portlet-footer .icon-plus-sign {
-	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-	opacity: 0.8;
-	position: relative;
-	left: 0px;
-	margin-left: 3px;
-	margin-right: 3px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.8;
+    position: relative;
+    left: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
-.button{
-	background: black;
-	padding: 0px;
-	padding-top: 1px;
-	padding-bottom: 0px;
-	padding-left: 4px;
+.button {
+    padding: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 4px;
 }
 .portlet.portlet-noticia-destacada {
     padding: 0;
@@ -198,13 +199,13 @@ h2 a, h3 a {
 margin-bottom: 15px;
 }
 .imatge_Destacada, .text_Destacat {
-	margin:0!important;
-	}
+    margin:0!important;
+    }
 .text_Destacat {
-	margin-left:10px!important;
+    margin-left:10px!important;
 }
 .noticia_Destacada {
-	background: none;
+    background: none;
 }
 .link_footer_destacat {
     margin-left: 10px !important;
@@ -212,88 +213,88 @@ margin-bottom: 15px;
      margin-top: 10px;
 }
 .portlet_mes_consultat .list-portlet li {
-	border-top: 1px solid #E5E5E5;
-	margin-left: 0 !important;
-	padding: 8px 5px 8px 5px !important;
-	margin-right: 10px;
+    border-top: 1px solid #E5E5E5;
+    margin-left: 0 !important;
+    padding: 8px 5px 8px 5px !important;
+    margin-right: 10px;
 }
 
 .mes_consultat {
-	background: #F2F2F2;
-	margin-right: 0px !important;
-	padding-right: 0px !important;
-	border-top: 3px solid white !important;	
+    background: #F2F2F2;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    border-top: 3px solid white !important;
 }
 
 .mes_consultat a {
-	color: black !important;	
+    color: black !important;
 }
 
 .portlet-esdeveniments ul {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 .portlet-esdeveniments ul a {
     color:black;
-	display: block;
-	padding-left: 70px;
-	border-left: 3px solid #F2F2F2;
-	font-weight: bold;	
-	min-height: 0 !important;
+    display: block;
+    padding-left: 70px;
+    border-left: 3px solid #F2F2F2;
+    font-weight: bold;
+    min-height: 0 !important;
 }
 
 .portlet-esdeveniments .multidate-before {
-	padding-left: 73px;
+    padding-left: 73px;
 }
 
 .portlet-esdeveniments .multidate {
-	font-size: 107%;
+    font-size: 107%;
 }
 
 .text_esdeveniment {
-	padding-left: 75px;	
-	font-size: 90%;	
+    padding-left: 75px;
+    font-size: 90%;
 }
 
-.menu_peu {	
-	border: 2px solid white;
-	padding: 10px 10px;
+.menu_peu {
+    border: 2px solid white;
+    padding: 10px 10px;
 }
 
 .menu_peu ul {
-	list-style: none;
-	margin-left: 0px;	
+    list-style: none;
+    margin-left: 0px;
 }
 
 
-.menu_peu h4 {	
-	background: transparent;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.menu_peu h4 {
+    background: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .menu_peu li a {
-	color: black;	
-	margin-left: 10px;
+    color: black;
+    margin-left: 10px;
 }
 
 .menu_peu_links ul li {
-	border-bottom: 2px solid white;
-	padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
 
 .menu_peu h4 a {
-	color: white;
-	margin-left: 10px;
+    color: white;
+    margin-left: 10px;
 }
 
 #baners ul {
-	list-style: none;
-	margin-left: 0px;
+    list-style: none;
+    margin-left: 0px;
 }
 
 #baners ul li {
-	margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 // Canvis Marc demo Ajuntament - Juliol 2013.
@@ -302,7 +303,7 @@ margin-bottom: 15px;
     background: none repeat scroll 0 0 white;
     border-bottom: medium none;
     border-top: 2px solid #0073B8;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 .link_footer_destacat {margin-left: 0 !important;}
 .header-image {
@@ -321,16 +322,16 @@ margin-bottom: 15px;
     margin-bottom: 15px;
 }
 .portlet h2 {
-    background: none repeat scroll 0 0 #000000;
-    border-bottom-width: 0;
-    color: white;
-    font-size: 15px;
-    font-weight: normal;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #650065;
+    color: #650065;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 18px;
     margin: 0;
-    padding: 6px 15px 7px 10px;
+    padding: 6px 15px 7px 0;
     position: relative;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 .noticies h2 {
     background: none repeat scroll 0 0 transparent;
@@ -362,9 +363,9 @@ b, strong {
 }
 
 .button {
-    background: none repeat scroll 0 0 black;
+    background: none repeat scroll 0 0 #650065;
     font-size: 11px;
-    padding: 1px 0 2px 8px;
+    padding: 2px 0 3px 8px;
 }
 .portlet-footer {
     background: none repeat scroll 0 0 #000000;
@@ -380,7 +381,7 @@ b, strong {
     box-shadow: 0 20px 20px -20px rgba(255, 255, 255, 0.4) inset;
 }
 #portal-column-content .span9 {
-		margin-left: 1.6%;
+        margin-left: 1.6%;
 }
 #portal-column-content .span4 {
     margin-left: 2.2%;
@@ -389,7 +390,7 @@ b, strong {
 #content-area {
     margin-top: 0.8em;
     padding-bottom: 2em;
-}	
+}
 .imatge_Destacada {
 
 }
@@ -403,8 +404,8 @@ b, strong {
     margin-top: 0;
 }
 .link_footer_destacat {
-	 
-	}
+
+    }
 .portletCalendar .ploneCalendar td.event, .portletCalendar .ploneCalendar td.todayevent {
     background: none repeat scroll 0 0 #F2F2F2;
     text-shadow: 0 -1px #fff;
@@ -414,7 +415,7 @@ b, strong {
     border-radius: 10px 10px 10px 10px;
     color: #444444;
     padding: 1px 5px;
-}	
+}
 .portletCalendar .ploneCalendar td:not(:empty) {
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 50px 50px 50px 50px;
@@ -464,7 +465,7 @@ text-decoration: none;
     margin-top: 0;
 }
 #portal-globalnav .navbar-inner {
-    background: none repeat scroll 0 0 #000000;
+    background: none repeat scroll 0 0 #650065;
     border-bottom: medium none;
     padding: 0 0 0 20px;
 
@@ -473,7 +474,7 @@ text-decoration: none;
     margin-top: 0;
 }
 #eines {
-	font-size: 12px;
+    font-size: 12px;
     margin-top: 10px;
 
 }
@@ -503,7 +504,7 @@ color:#333;
 .carousel img {border:0;}
 .carousel img:hover {
     cursor: pointer;
-	border:0;
+    border:0;
     opacity: 0.8;
     }
 .carousel .active > img, .carousel .selected > img {
@@ -548,7 +549,7 @@ color:#333;
     padding-top: 4px;
 }
 .portlet_mes_consultat {
-	margin-bottom:20px;
+    margin-bottom:20px;
 
 }
 .portlet-static-social-links {
@@ -625,13 +626,18 @@ color:#333;
     margin-top: 0;
     line-height: 30px;
 }
-.carousel-control:hover {   
+.carousel-control:hover {
     background: white;
     opacity: 1;
 }
 .breadcrumb a {
     color:black;
  }
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret, .navbar .contentViews li.dropdown > .dropdown-toggle .caret, .navbar .configlets li.dropdown > .dropdown-toggle .caret, .navbar .formTabs li.dropdown > .dropdown-toggle .caret {
+    border-bottom-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}
 
 // Canvis Marc setembre 2013 - Ajustos Responsive
 
@@ -662,7 +668,7 @@ input, button, select, textarea {
     font-family: 'Open Sans',sans-serif;
 }
 
-@media only screen 
+@media only screen
 and (max-width : 640px) {
 
 #portal-globalnav .navbar-inner {
@@ -673,7 +679,7 @@ and (max-width : 640px) {
     background-image: none;
 }
 #portal-globalnav .nav-collapse .nav > li > a, #portal-globalnav .nav-collapse .contentViews > li > a, #portal-globalnav .nav-collapse .configlets > li > a, #portal-globalnav .nav-collapse .formTabs > li > a, #portal-globalnav .nav-collapse .dropdown-menu a, .nav-collapse-eines.nav-collapse .nav > li > a, .nav-collapse-eines.nav-collapse .contentViews > li > a, .nav-collapse-eines.nav-collapse .configlets > li > a, .nav-collapse-eines.nav-collapse .formTabs > li > a, .nav-collapse-eines.nav-collapse .dropdown-menu a {
-padding: 5px 15px 5px 5px;    
+padding: 5px 15px 5px 5px;
 }
 #portal-globalnav .nav > li {
     border-bottom: 1px solid;
@@ -688,7 +694,7 @@ padding: 5px 15px 5px 5px;
     margin-top: 10px;
 
  }
- 
+
 .subnavbar {
     margin-bottom: 15px;
 }
@@ -709,7 +715,7 @@ padding: 5px 15px 5px 5px;
 [class*="span"], .cella {
         margin-bottom: 15px;
     }
-.imatge_Destacada {margin-bottom:10px!important;}   
+.imatge_Destacada {margin-bottom:10px!important;}
 .text_Destacat {margin-left: 0 !important;}
 .text_Destacat {
     float:left;
@@ -809,8 +815,8 @@ margin-bottom: -5px;
     background: #fcfcfc;
 }
 
-.accordion-heading a:hover:after, 
-.accordion-heading .active a:after, 
+.accordion-heading a:hover:after,
+.accordion-heading .active a:after,
 .accordion-heading .selected a:after {
     content: "";
     position: absolute;
@@ -866,11 +872,13 @@ margin-bottom: -5px;
     border-top: 1px solid #DEDEDE;
     padding: 0;
 }
- 
-h1, h2, h3 {
+h1 {
+color: #650065;
+}
+h2, h3 {
     color: #000000;
     margin-top: 27px;
-}    
+}
 #portal-column-content {
     background: none repeat scroll 0 0 #FFFFFF;
     box-shadow: none;
@@ -888,8 +896,10 @@ h1, h2, h3 {
     padding: 5px 0 0;
     margin-left: 0!important;
 }
+.template-homepage .portlet {
+    margin-bottom: 0;
+}
 .liniaBaix, .documentFirstHeading {
-    color: #000000;
     border-bottom: 1px solid #BEBEBE;
     box-shadow: none;
     margin: 0 10px 5px 0;
@@ -921,7 +931,7 @@ font-size: 14px;
 }
 
 .carousel_normal {
- 
+
 }
 
 .carousel_mobile {
@@ -956,7 +966,7 @@ font-size: 14px;
     color: #000000;
 }
 .portlet-esdeveniments ul a {
-    border-left: 0 none;    
+    border-left: 0 none;
     }
 .userrole-anonymous .documentByLine {display:none;}
 dd {
@@ -1027,7 +1037,7 @@ padding: 8px 0 !important;
     margin-right: 0;
     padding: 0 !important;
 }
- 
+
 .subnavbar .nav-list .active ul a span:before, .subnavbar .nav-list .selected ul a span:before {
     color: #444;
 
@@ -1055,14 +1065,14 @@ padding: 8px 0 !important;
 .subnavbar .nav-list .active ul a span, .subnavbar .nav-list .selected ul a span {
     border-top: 0 none!important;
     text-transform: none;
-    font-size: 14px;
+    font-size: 13px;
     margin-right: 10px;
     margin-left: 0;
     }
-.subnavbar .nav-list .active ul a {font-size:13px;} 
-.navTreeLevel2 {   
+.subnavbar .nav-list .active ul a {font-size:13px;}
+.navTreeLevel2 {
 background: #eee!important;
-}  
+}
 .navTreeLevel2 .navTreeFolderish {
     margin-left: 15px;
 }
@@ -1097,7 +1107,7 @@ font-size: 13px!important;
     border-bottom: 1px solid #B2B2B2;
     padding: 0px 10px 15px 0;
 }
-.template-folder_listing .summary a {        
+.template-folder_listing .summary a {
     color: #333333;
 }
 .photoAlbumEntry {
@@ -1113,7 +1123,7 @@ font-size: 13px!important;
 }
 .subnavbar .nav-list .active ul a.active, .subnavbar .nav-list .selected ul a.active, .subnavbar .nav-list .active ul a.selected, .subnavbar .nav-list .selected ul a.selected {
     background-color: #F5F5F5 !important;
-}    
+}
 .photoAlbumEntryTitle {
     background: none repeat scroll 0 0 #333333;
     color: #FFFFFF !important;
@@ -1204,19 +1214,19 @@ color: #ccc;
     background-position: -335px -72px;
 }
 .icon-banner, .contenttype-bannercontainer:before {
-     background-position: -191px -192px!important;   
+     background-position: -191px -192px!important;
 }
 .icon-bannercontainer {
-    background-position: -432px -143px;   
+    background-position: -432px -143px;
 }
 .icon-equipament, .contenttype-equipament:before {
-    background-position: -145px -193px;   
+    background-position: -145px -193px;
 }
 .icon-tramit, .contenttype-tramit:before  {
-    background-position: -145px -72px;   
+    background-position: -145px -72px;
 }
 .icon-slider {
-    background-position: -360px -72px;   
+    background-position: -360px -72px;
 }
 .icon-collection {
     background-position:-74px -192px;
@@ -1231,8 +1241,6 @@ color: #ccc;
 #portal-globalnav .navbar .nav > li {
     background: none;
 }
-
-.subnavbar .nav-list .active a, .subnavbar .nav-list .selected a {
-    background: #d4d4d4;
-    color: #222222;
+h3 img {
+    padding-right: 4px;
 }
