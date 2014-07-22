@@ -1,17 +1,19 @@
 Changelog
 =========
 
-1.0b3 (unreleased)
+1.0b3 (2014-07-22)
 ------------------
 
-- Nothing changed yet.
-
+* css [Pilar Marinas]
+* Canvis css [Pilar Marinas]
+* Canvis perque no peti [Pilar Marinas]
 
 1.0b2 (2014-04-16)
 ------------------
 
-- Nothing changed yet.
-
+* css [Pilar Marinas]
+* Canvis css [Pilar Marinas]
+* Canvis perque no peti [Pilar Marinas]
 
 1.0b1 (2014-04-09)
 ------------------
