@@ -28,7 +28,7 @@ from genweb.core.interfaces import IHomePage
 from genweb.core.utils import genweb_config, havePermissionAtRoot, pref_lang
 
 from genweb.theme.browser.interfaces import IGenwebTheme
-from genweb.theme.browser.viewlets import gwManagePortletsFallbackViewlet
+#from genweb.theme.browser.viewlets import gwManagePortletsFallbackViewlet
 from vilaix.santaperpetuamogoda.browser.interfaces import ISantaPerpetuaTheme
 
 from plone.app.collection.interfaces import ICollection
@@ -97,13 +97,13 @@ class gwHeader(viewletBase):
 
     def languages(self):
         portal = getSite()
-        pl = getToolByName(portal, 'portal_languages')     
+        pl = getToolByName(portal, 'portal_languages')
         return pl.supported_langs
-    
+
     def getDadesLanguages(self):
         portal = getSite()
         urltool = portal.absolute_url()
-        pl = getToolByName(portal, 'portal_languages')     
+        pl = getToolByName(portal, 'portal_languages')
         langs_supported = pl.getSupportedLanguages()
         pref_lang = pl.getPreferredLanguage()
         default_lang = pl.getDefaultLanguage()
@@ -141,17 +141,17 @@ class gwHeader(viewletBase):
     #     #Obté totes les imatges de la carpeta imatges-capcalera i fa un random retornant una cada cop
     #     urltool = getToolByName(self.context, 'portal_url')
     #     portal_catalog = getToolByName(self.context, 'portal_catalog')
-    #     path = urltool.getPortalPath() + '/imatges-capcalera'        
+    #     path = urltool.getPortalPath() + '/imatges-capcalera'
     #     resultats = []
     #     #Imatge capcalera per defecte
     #     style = 'background-image: url("/++vilaix++static/images/capcalera.jpg")'
-       
+
     #     imatges = self.context.portal_catalog.searchResults(portal_type='Image',
     #                                                         path=path)
     #     if imatges.actual_result_count != 0:
     #         imatge = random.choice(imatges)
-    #         style = 'background-image: url(' + imatge.getPath() +')'       
-        
+    #         style = 'background-image: url(' + imatge.getPath() +')'
+
     #     return style
 
 
