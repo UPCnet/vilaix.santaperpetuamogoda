@@ -1,0 +1,11 @@
+<tal:repl tal:define="tramits view/MigrarTramits">
+
+    <h3>Tramits Migrats</h3>
+
+    <ul tal:condition="tramits">
+        <li  style="list-style: none;" tal:repeat="tramit tramits">
+            <span tal:content="tramit"></span>
+        </li>
+    </ul>
+
+</tal:repl>
