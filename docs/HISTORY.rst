@@ -1,11 +1,10 @@
 Changelog
 =========
 
-1.0b4 (unreleased)
-------------------
+1.0 (2014-07-31)
+----------------
 
-- Nothing changed yet.
-
+* Migrar Tramits de tipus Item a tipus Container [Pilar Marinas]
 
 1.0b3 (2014-07-22)
 ------------------
