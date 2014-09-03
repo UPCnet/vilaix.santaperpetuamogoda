@@ -323,7 +323,7 @@ margin-bottom: 15px;
 }
 .portlet h2 {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border-bottom: 3px solid #650065;
+    border-bottom: 1px solid #650065;
     color: #650065;
     font-size: 18px;
     font-weight: bold;
@@ -1297,3 +1297,17 @@ body {
 #parent-fieldname-text .row-fluid .span6 h3 {
     color: #650065;
  }
+ .template-subhome #content-area, #portal-column-content {
+    margin-top: 12px;
+}
+
+.template-subhome .carousel-control {
+    border: 0 none;
+    color: white;
+    font-size: 40px;
+    height: 35px;
+    width: 35px;
+}
+.template-subhome .carousel-control:hover {
+    color:black;
+}
