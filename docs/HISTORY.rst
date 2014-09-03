@@ -1,17 +1,19 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2014-09-03)
 ----------------
 
-- Nothing changed yet.
-
+* Canvis estils Marc [Pilar Marinas]
+* Canvis estils Marc [Pilar Marinas]
+* Canvis estils Marc [Pilar Marinas]
 
 1.0 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+* Canvis estils Marc [Pilar Marinas]
+* Canvis estils Marc [Pilar Marinas]
+* Canvis estils Marc [Pilar Marinas]
 
 1.0 (2014-07-31)
 ----------------
