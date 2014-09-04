@@ -1532,37 +1532,39 @@ h3 img {
 /* line 1160, ../scss/SantaPerpetuaTheme.scss */
 .liniaBaix, .documentFirstHeading {
   border-bottom: 2px solid #650065;
+  font-size: 18px;
   color: #650065;
   box-shadow: none;
   margin: 0 10px 5px 0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-left: 0;
   padding-top: 0;
+  text-transform: uppercase;
 }
 
-/* line 1169, ../scss/SantaPerpetuaTheme.scss */
+/* line 1171, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a {
   font-size: 13px;
   background-color: #D4D4D4;
   border-bottom: 1px solid #EEEEEE;
 }
 
-/* line 1174, ../scss/SantaPerpetuaTheme.scss */
+/* line 1176, ../scss/SantaPerpetuaTheme.scss */
 #content-area, #portal-column-content {
   margin-top: 25px;
 }
 
-/* line 1177, ../scss/SantaPerpetuaTheme.scss */
+/* line 1179, ../scss/SantaPerpetuaTheme.scss */
 #portal-column-content.span9 {
   margin-top: 0;
 }
 
-/* line 1181, ../scss/SantaPerpetuaTheme.scss */
+/* line 1183, ../scss/SantaPerpetuaTheme.scss */
 .portlet h3 a {
   color: black;
 }
 
-/* line 1185, ../scss/SantaPerpetuaTheme.scss */
+/* line 1187, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a {
   font-size: 13px;
   color: black;
@@ -1571,31 +1573,31 @@ h3 img {
   text-shadow: none !important;
 }
 
-/* line 1193, ../scss/SantaPerpetuaTheme.scss */
+/* line 1195, ../scss/SantaPerpetuaTheme.scss */
 body {
   font-family: 'Cabin', sans-serif;
   color: #555555;
   font-size: 13px;
 }
 
-/* line 1199, ../scss/SantaPerpetuaTheme.scss */
+/* line 1201, ../scss/SantaPerpetuaTheme.scss */
 .subnavbar .nav-list a:hover:after, .subnavbar .nav-list .active a:after, .subnavbar .nav-list .selected a:after {
   background-color: transparent;
   background-image: none;
   box-shadow: none;
 }
 
-/* line 1204, ../scss/SantaPerpetuaTheme.scss */
+/* line 1206, ../scss/SantaPerpetuaTheme.scss */
 #parent-fieldname-text .row-fluid .span6 h3 {
   color: #650065;
 }
 
-/* line 1207, ../scss/SantaPerpetuaTheme.scss */
+/* line 1209, ../scss/SantaPerpetuaTheme.scss */
 .template-subhome #content-area, #portal-column-content {
   margin-top: 12px;
 }
 
-/* line 1211, ../scss/SantaPerpetuaTheme.scss */
+/* line 1213, ../scss/SantaPerpetuaTheme.scss */
 .template-subhome .carousel-control {
   border: 0 none;
   color: white;
@@ -1604,12 +1606,12 @@ body {
   width: 35px;
 }
 
-/* line 1218, ../scss/SantaPerpetuaTheme.scss */
+/* line 1220, ../scss/SantaPerpetuaTheme.scss */
 .template-subhome .carousel-control:hover {
   color: black;
 }
 
-/* line 1221, ../scss/SantaPerpetuaTheme.scss */
+/* line 1223, ../scss/SantaPerpetuaTheme.scss */
 .portletCalendar .ploneCalendar td.event a, .portletCalendar .ploneCalendar td.todayevent a {
   background: none repeat scroll 0 0 #dddddd;
   border-radius: 14px;
@@ -1619,7 +1621,7 @@ body {
   width: 18px;
 }
 
-/* line 1229, ../scss/SantaPerpetuaTheme.scss */
+/* line 1231, ../scss/SantaPerpetuaTheme.scss */
 .discreet {
   color: #aaaaaa;
   font-size: 12px;
@@ -1629,28 +1631,28 @@ body {
 
 @media only screen
 and (max-width : 640px) {
-  /* line 1239, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1241, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .navbar-inner {
     padding: 0 0 0 5px;
   }
 
-  /* line 1242, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1244, ../scss/SantaPerpetuaTheme.scss */
   .navbar .btn-navbar, .navbar .btn-navbar:active {
     background-color: #444444;
     background-image: none;
   }
 
-  /* line 1246, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1248, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .nav-collapse .nav > li > a, #portal-globalnav .nav-collapse .contentViews > li > a, #portal-globalnav .nav-collapse .configlets > li > a, #portal-globalnav .nav-collapse .formTabs > li > a, #portal-globalnav .nav-collapse .dropdown-menu a, .nav-collapse-eines.nav-collapse .nav > li > a, .nav-collapse-eines.nav-collapse .contentViews > li > a, .nav-collapse-eines.nav-collapse .configlets > li > a, .nav-collapse-eines.nav-collapse .formTabs > li > a, .nav-collapse-eines.nav-collapse .dropdown-menu a {
     padding: 5px 15px 5px 5px;
   }
 
-  /* line 1249, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1251, ../scss/SantaPerpetuaTheme.scss */
   #portal-globalnav .nav > li {
     border-bottom: 1px solid;
   }
 
-  /* line 1252, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1254, ../scss/SantaPerpetuaTheme.scss */
   #content-area, #portal-column-content {
     margin-top: 5px;
     padding-bottom: 0;
@@ -1658,17 +1660,17 @@ and (max-width : 640px) {
     padding-right: 0;
   }
 
-  /* line 1258, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1260, ../scss/SantaPerpetuaTheme.scss */
   #portal-breadcrumbs {
     margin-top: 10px;
   }
 
-  /* line 1263, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1265, ../scss/SantaPerpetuaTheme.scss */
   .subnavbar {
     margin-bottom: 15px;
   }
 
-  /* line 1267, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1269, ../scss/SantaPerpetuaTheme.scss */
   #baners ul {
     background: none repeat scroll 0 0 white;
     border: 8px solid white;
@@ -1677,93 +1679,93 @@ and (max-width : 640px) {
     margin-left: 0;
   }
 
-  /* line 1274, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1276, ../scss/SantaPerpetuaTheme.scss */
   #baners ul li:last-child {
     margin-bottom: 0;
   }
 
-  /* line 1277, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1279, ../scss/SantaPerpetuaTheme.scss */
   #portal-column-content .span9, #portal-column-content .span4 {
     margin-left: 0;
   }
 
-  /* line 1280, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1282, ../scss/SantaPerpetuaTheme.scss */
   [class*="span"], .cella {
     margin-bottom: 15px;
   }
 
-  /* line 1283, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1285, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada {
     margin-bottom: 10px!important;
   }
 
-  /* line 1284, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1286, ../scss/SantaPerpetuaTheme.scss */
   .text_Destacat {
     margin-left: 0 !important;
   }
 
-  /* line 1285, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1287, ../scss/SantaPerpetuaTheme.scss */
   .text_Destacat {
     float: left;
     width: 100%;
   }
 
-  /* line 1289, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1291, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada {
     float: left;
     width: 100%;
   }
 
-  /* line 1293, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1295, ../scss/SantaPerpetuaTheme.scss */
   .link_footer_destacat {
     float: left;
     clear: both;
   }
 
-  /* line 1297, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1299, ../scss/SantaPerpetuaTheme.scss */
   .imatge_Destacada img {
     width: 100%;
   }
 
-  /* line 1300, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1302, ../scss/SantaPerpetuaTheme.scss */
   .header-image {
     background-size: auto;
     background-position: center center;
   }
 
-  /* line 1304, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1306, ../scss/SantaPerpetuaTheme.scss */
   .portletCalendar .ploneCalendar {
     font-size: 100%;
   }
 
-  /* line 1307, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1309, ../scss/SantaPerpetuaTheme.scss */
   .weekdays th {
     padding: 12px;
   }
 
-  /* line 1310, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1312, ../scss/SantaPerpetuaTheme.scss */
   .carousel-inner {
     padding-left: 0;
   }
 
-  /* line 1314, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1316, ../scss/SantaPerpetuaTheme.scss */
   .carousel img {
     width: 100%;
   }
 
-  /* line 1317, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1319, ../scss/SantaPerpetuaTheme.scss */
   .carousel .item {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 1321, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1323, ../scss/SantaPerpetuaTheme.scss */
   #portal-header .btn-navbar.pull-right, #portal-header .btn-navbar.newsImageContainer {
     margin-left: 85%;
     position: absolute;
   }
 
-  /* line 1325, ../scss/SantaPerpetuaTheme.scss */
+  /* line 1327, ../scss/SantaPerpetuaTheme.scss */
   #portal-header h1 {
     width: 260px;
     margin-bottom: -5px;

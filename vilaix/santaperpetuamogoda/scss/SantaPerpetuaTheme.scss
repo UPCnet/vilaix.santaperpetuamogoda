@@ -1159,12 +1159,14 @@ h3 img {
 
 .liniaBaix, .documentFirstHeading {
     border-bottom: 2px solid #650065;
+    font-size: 18px;
     color: #650065;
     box-shadow: none;
     margin: 0 10px 5px 0;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-left: 0;
     padding-top: 0;
+    text-transform: uppercase;
 }
 .subnavbar .nav-list a {
     font-size: 13px;
