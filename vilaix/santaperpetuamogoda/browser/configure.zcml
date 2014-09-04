@@ -10,5 +10,12 @@
         name="SantaPerpetuaTheme"
         />
 
+    <browser:viewlet
+      name="vilaix.navigationPeu"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".navigationPeu.navigationPeu"
+      layer=".interfaces.ISantaPerpetuaTheme"
+      permission="zope2.View"
+      />
 
 </configure>
