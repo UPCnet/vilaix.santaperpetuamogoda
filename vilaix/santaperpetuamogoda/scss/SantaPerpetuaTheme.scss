@@ -679,102 +679,6 @@ li h4 a {
     color: black;
 }
 
-
-@media only screen
-and (max-width : 640px) {
-
-#portal-globalnav .navbar-inner {
-    padding: 0 0 0 5px;
-}
-.navbar .btn-navbar, .navbar .btn-navbar:active {
-    background-color: #444444;
-    background-image: none;
-}
-#portal-globalnav .nav-collapse .nav > li > a, #portal-globalnav .nav-collapse .contentViews > li > a, #portal-globalnav .nav-collapse .configlets > li > a, #portal-globalnav .nav-collapse .formTabs > li > a, #portal-globalnav .nav-collapse .dropdown-menu a, .nav-collapse-eines.nav-collapse .nav > li > a, .nav-collapse-eines.nav-collapse .contentViews > li > a, .nav-collapse-eines.nav-collapse .configlets > li > a, .nav-collapse-eines.nav-collapse .formTabs > li > a, .nav-collapse-eines.nav-collapse .dropdown-menu a {
-padding: 5px 15px 5px 5px;
-}
-#portal-globalnav .nav > li {
-    border-bottom: 1px solid;
- }
- #content-area, #portal-column-content {
-    margin-top: 5px;
-    padding-bottom: 0;
-    padding-left: 0;
-   padding-right: 0;
- }
- #portal-breadcrumbs {
-    margin-top: 10px;
-
- }
-
-.subnavbar {
-    margin-bottom: 15px;
-}
-
-#baners ul {
-    background: none repeat scroll 0 0 white;
-    border: 8px solid white;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-    list-style: none outside none;
-    margin-left: 0;
-}
-#baners ul li:last-child {
-    margin-bottom: 0;
-}
-#portal-column-content .span9, #portal-column-content .span4  {
-    margin-left: 0;
-}
-[class*="span"], .cella {
-        margin-bottom: 15px;
-    }
-.imatge_Destacada {margin-bottom:10px!important;}
-.text_Destacat {margin-left: 0 !important;}
-.text_Destacat {
-    float:left;
-    width: 100%;
-}
-.imatge_Destacada {
-float:left;
-  width: 100%;
-}
-.link_footer_destacat {
-    float:left;
-    clear:both;
-}
-.imatge_Destacada img {
-    width:100%;
-}
-.header-image {
-    background-size:auto;
-    background-position: center center;
-}
-.portletCalendar .ploneCalendar {
-    font-size: 100%;
-    }
-.weekdays th {
-    padding: 12px;
-}
-.carousel-inner {
-    padding-left:0;
-
-}
-.carousel img {
-     width: 100%;
-}
-.carousel .item {
-    margin-left: 0;
-    margin-right: 0;
-}
-#portal-header .btn-navbar.pull-right, #portal-header .btn-navbar.newsImageContainer {
-    margin-left: 85%;
-    position: absolute;
-}
-#portal-header h1 {
-width: 260px;
-margin-bottom: -5px;
-}
-}
-
 /* NOVA NAVEGACIO PAGINA PRINCIPAL */
 .accordion {
     margin-bottom: 18px;
@@ -958,11 +862,14 @@ font-size: 14px;
 .noticies .newsImage {
     float: left;
     height: auto;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 10px;
     max-height: 150px;
     padding: 2px;
     width: 185px;
+}
+.imatge_noticia {
+    float: left;
 }
 #portal-column-content {
     margin-left: 0;
@@ -1310,4 +1217,113 @@ body {
 }
 .template-subhome .carousel-control:hover {
     color:black;
+}
+.portletCalendar .ploneCalendar td.event a, .portletCalendar .ploneCalendar td.todayevent a {
+    background: none repeat scroll 0 0 #dddddd;
+    border-radius: 14px;
+    color: #444444;
+    line-height: 26px;
+    padding: 1px 4px;
+    width: 18px;
+}
+.discreet {
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 7px;
+}
+
+@media only screen
+and (max-width : 640px) {
+
+#portal-globalnav .navbar-inner {
+    padding: 0 0 0 5px;
+}
+.navbar .btn-navbar, .navbar .btn-navbar:active {
+    background-color: #444444;
+    background-image: none;
+}
+#portal-globalnav .nav-collapse .nav > li > a, #portal-globalnav .nav-collapse .contentViews > li > a, #portal-globalnav .nav-collapse .configlets > li > a, #portal-globalnav .nav-collapse .formTabs > li > a, #portal-globalnav .nav-collapse .dropdown-menu a, .nav-collapse-eines.nav-collapse .nav > li > a, .nav-collapse-eines.nav-collapse .contentViews > li > a, .nav-collapse-eines.nav-collapse .configlets > li > a, .nav-collapse-eines.nav-collapse .formTabs > li > a, .nav-collapse-eines.nav-collapse .dropdown-menu a {
+padding: 5px 15px 5px 5px;
+}
+#portal-globalnav .nav > li {
+    border-bottom: 1px solid;
+ }
+ #content-area, #portal-column-content {
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-left: 0;
+   padding-right: 0;
+ }
+ #portal-breadcrumbs {
+    margin-top: 10px;
+
+ }
+
+.subnavbar {
+    margin-bottom: 15px;
+}
+
+#baners ul {
+    background: none repeat scroll 0 0 white;
+    border: 8px solid white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    list-style: none outside none;
+    margin-left: 0;
+}
+#baners ul li:last-child {
+    margin-bottom: 0;
+}
+#portal-column-content .span9, #portal-column-content .span4  {
+    margin-left: 0;
+}
+[class*="span"], .cella {
+        margin-bottom: 15px;
+    }
+.imatge_Destacada {margin-bottom:10px!important;}
+.text_Destacat {margin-left: 0 !important;}
+.text_Destacat {
+    float:left;
+    width: 100%;
+}
+.imatge_Destacada {
+float:left;
+  width: 100%;
+}
+.link_footer_destacat {
+    float:left;
+    clear:both;
+}
+.imatge_Destacada img {
+    width:100%;
+}
+.header-image {
+    background-size:auto;
+    background-position: center center;
+}
+.portletCalendar .ploneCalendar {
+    font-size: 100%;
+    }
+.weekdays th {
+    padding: 12px;
+}
+.carousel-inner {
+    padding-left:0;
+
+}
+.carousel img {
+     width: 100%;
+}
+.carousel .item {
+    margin-left: 0;
+    margin-right: 0;
+}
+#portal-header .btn-navbar.pull-right, #portal-header .btn-navbar.newsImageContainer {
+    margin-left: 85%;
+    position: absolute;
+}
+#portal-header h1 {
+width: 260px;
+margin-bottom: -5px;
+}
 }
