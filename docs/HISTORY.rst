@@ -1,11 +1,12 @@
 Changelog
 =========
 
-1.3 (unreleased)
+1.3 (2014-09-04)
 ----------------
 
-- Nothing changed yet.
-
+* Canvis estils demanats [Pilar Marinas]
+* Canvi font-size body a 13px [Pilar Marinas]
+* Treure de la navegacio del peu apartat noticies [Pilar Marinas]
 
 1.2 (2014-09-03)
 ----------------
