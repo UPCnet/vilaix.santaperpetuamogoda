@@ -394,7 +394,7 @@ h2 a, h3 a {
 /* line 324, ../scss/SantaPerpetuaTheme.scss */
 .portlet h2 {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-  border-bottom: 2px solid #650065;
+  border-bottom: 3px solid #650065;
   color: #650065;
   font-size: 18px;
   font-weight: bold;
@@ -1531,7 +1531,7 @@ h3 img {
 
 /* line 1160, ../scss/SantaPerpetuaTheme.scss */
 .liniaBaix, .documentFirstHeading {
-  border-bottom: 2px solid #650065;
+  border-bottom: 3px solid #650065;
   font-size: 18px;
   color: #650065;
   box-shadow: none;
