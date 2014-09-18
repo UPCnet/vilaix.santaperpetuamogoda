@@ -1,11 +1,13 @@
 Changelog
 =========
 
-1.4 (unreleased)
+1.4 (2014-09-18)
 ----------------
 
-- Nothing changed yet.
-
+* Modificar css perque el calendari es visualizi correctament [Pilar Marinas]
+* border-bottom: 3px demanat per Ana [Pilar Marinas]
+* Unificar estil titol pagina i subhome [Pilar Marinas]
+* Canvis estils Marc [Pilar Marinas]
 
 1.3 (2014-09-04)
 ----------------
