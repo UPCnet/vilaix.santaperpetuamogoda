@@ -1779,3 +1779,8 @@ and (max-width : 640px) {
   color: white;
   text-shadow: none;
 }
+
+/* line 1340, ../scss/SantaPerpetuaTheme.scss */
+.carousel img {
+  min-width: 100%;
+}
