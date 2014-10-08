@@ -1124,7 +1124,7 @@ h2, h3 {
 }
 
 /* line 883, ../scss/SantaPerpetuaTheme.scss */
-.userrole-anonymous .documentByLine {
+.userrole-anonymous #plone-document-byline {
   display: none;
 }
 
