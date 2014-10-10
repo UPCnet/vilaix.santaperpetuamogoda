@@ -1784,3 +1784,8 @@ and (max-width : 640px) {
 .carousel img {
   min-width: 100%;
 }
+
+/* line 1344, ../scss/SantaPerpetuaTheme.scss */
+.event.details {
+  float: none !important;
+}
