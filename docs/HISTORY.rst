@@ -1,11 +1,16 @@
 Changelog
 =========
 
-1.5 (unreleased)
+1.5 (2014-10-16)
 ----------------
 
-- Nothing changed yet.
-
+* Ocultar hCalendar-hidden [Pilar Marinas]
+* Modificar color select cerca [Pilar Marinas]
+* Afegir js cerca main_template i migrarequipaments [Pilar Marinas]
+* Dades events seguides sense float [Pilar Marinas]
+* Modificar css que feia que no es veies data esdeveniments com anomim [Pilar Marinas]
+* Mida img slider [Pilar Marinas]
+* Borrar codigo comentado [Pilar Marinas]
 
 1.4 (2014-09-18)
 ----------------
