@@ -1789,3 +1789,9 @@ and (max-width : 640px) {
 .event.details {
   float: none !important;
 }
+
+/* line 1348, ../scss/SantaPerpetuaTheme.scss */
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #650065 !important;
+}
