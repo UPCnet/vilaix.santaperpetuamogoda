@@ -1,0 +1,11 @@
+<tal:repl tal:define="equipaments view/MigrarEquipaments">
+
+    <h3>Equipaments Migrats</h3>
+
+    <ul tal:condition="equipaments">
+        <li  style="list-style: none;" tal:repeat="equipament equipaments">
+            <span tal:content="equipament"></span>
+        </li>
+    </ul>
+
+</tal:repl>

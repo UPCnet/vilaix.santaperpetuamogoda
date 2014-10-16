@@ -67,3 +67,72 @@ class MigrarTramitsView(grok.View):
             results.append(data['title'])
 
         return results
+
+
+class MigrarEquipamentsView(grok.View):
+    """
+    """
+
+    grok.name('MigrarEquipaments')
+    grok.context(Interface)
+    grok.template('migrarequipaments')
+    grok.layer(ISantaPerpetuaLayer)
+    grok.require('cmf.AddPortalContent')
+
+    def MigrarEquipaments(self):
+        """ Migra els equipaments creats com a factory new item com a Equipament
+        """
+        portal_catalog = getToolByName(self, 'portal_catalog')
+        workflowTool = getToolByName(self, "portal_workflow")
+        equipaments = []
+        equipaments = portal_catalog.searchResults(portal_type='Equipament')
+
+        results = []
+        for item in equipaments:
+            obj = item.getObject()
+            pare = obj.aq_parent
+
+            data = {'id': obj.id,
+                    'title': obj.title,
+                    'description': obj.description,
+                    'image': obj.image,
+                    'tipus': obj.tipus,
+                    'adreca_contacte': obj.adreca_contacte,
+                    'codi_postal': obj.codi_postal,
+                    'poblacio': obj.poblacio,
+                    'geolocalitzacio': obj.geolocalitzacio,
+                    'telefon': obj.telefon,
+                    'adreca_correu': obj.adreca_correu,
+                    'horari': obj.horari,
+                    'mes_informacio': obj.mes_informacio,
+                    'ubicacio': obj.ubicacio,
+                    'ubicacio_iframe': obj.ubicacio_iframe,
+                    'etiquetes': obj.subject}
+            status = workflowTool.getInfoFor(obj, "review_state")
+            pare.manage_delObjects(obj.id)
+            new_equipament = createContentInContainer(
+                pare,
+                'Equipament',
+                title=data['title'],
+                description=data['description'],
+                image=data['image'],
+                tipus=data['tipus'],
+                adreca_contacte=data['adreca_contacte'],
+                codi_postal=data['codi_postal'],
+                poblacio=data['poblacio'],
+                geolocalitzacio=data['geolocalitzacio'],
+                telefon=data['telefon'],
+                adreca_correu=data['adreca_correu'],
+                horari=data['horari'],
+                mes_informacio=data['mes_informacio'],
+                ubicacio=data['ubicacio'],
+                ubicacio_iframe=data['ubicacio_iframe'],
+                checkConstraints=False)
+            if status != 'esborrany':
+                workflowTool.doActionFor(new_equipament, "publish")
+            new_equipament.setSubject(data['etiquetes'])
+            new_equipament.reindexObject()
+
+            results.append(data['title'])
+
+        return results

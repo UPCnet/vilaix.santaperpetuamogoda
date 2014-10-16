@@ -66,6 +66,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/++genweb++stylesheets/genwebupc.css">
+
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/++vilaix++stylesheets/VilaixTheme.css">
 
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/++resource++SantaPerpetuaTheme.css">
@@ -202,7 +203,7 @@
     <tal:comment replace="nothing"> <!-- A partir d'aqui, els JS comuns d'inicialització --> </tal:comment>
 
 
-    <script tal:attributes="src string:${portal_url}/++genweb++static/js/scrollability.js"></script>
+    <!-- <script tal:attributes="src string:${portal_url}/++genweb++static/js/scrollability.js"></script> -->
     <script tal:attributes="src string:${portal_url}/++genweb++static/js/fileinput.js"></script>
     <script tal:attributes="src string:${portal_url}/++genweb++static/js/customInput.js"></script>
     <script tal:attributes="src string:${portal_url}/++genweb++static/js/jquery.nicescroll.js"></script>
@@ -211,6 +212,8 @@
     <script tal:attributes="src string:${portal_url}/++genweb++static/js/jquery.mixitup.min.js"></script>
     <script tal:attributes="src string:${portal_url}/++genweb++static/js/alertify.min.js"></script>
     <script tal:attributes="src string:${portal_url}/++components++root/select2/select2.js"></script>
+    <script tal:attributes="src string:${portal_url}/++components++root/handlebars/handlebars.min.js"></script>
+    <script tal:attributes="src string:${portal_url}/++components++root/typeahead.js/dist/typeahead.jquery.min.js"></script>
 
     <tal:select2lang condition="python:lang=='ca'">
       <script tal:attributes="src string:${portal_url}/++components++root/select2/select2_locale_ca.js"></script>
