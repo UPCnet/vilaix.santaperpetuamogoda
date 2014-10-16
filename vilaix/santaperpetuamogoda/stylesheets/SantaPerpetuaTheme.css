@@ -1795,3 +1795,8 @@ and (max-width : 640px) {
   color: #fff;
   background-color: #650065 !important;
 }
+
+/* line 1353, ../scss/SantaPerpetuaTheme.scss */
+.hCalendar-hidden {
+  display: none;
+}
