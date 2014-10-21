@@ -31,6 +31,11 @@
       file="static/images/logoVILAIX.png"
       />
 
+   <browser:resource
+      name="favicon.ico"
+      file="static/images/favicon.ico"
+      />
+
   <genericsetup:registerProfile
       name="default"
       title="vilaix.santaperpetuamogoda"

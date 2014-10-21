@@ -31,12 +31,23 @@
     </metal:cache>
 
 <head>
+    <meta http-equiv="Content-Language" content="ca">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true" />
-    <meta name="generator" content="Plone - http://plone.org" />
-    <meta name="author" content="Genweb Vilaix" />
-    <meta name="description" content="Genweb Vilaix v4.0" />
-    <link rel="shortcut icon" type="image/x-icon" tal:attributes="href string:${portal_url}/++vilaix++static/favicon.ico" />
+    <META HTTP-EQUIV="EXPIRES" CONTENT="1">
+    <META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+    <META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+    <META NAME="description" CONTENT="Ajuntament de Santa Perpètua de Mogoda - Web Municipal">
+    <META NAME="keywords" CONTENT="Perpètua, ajuntament, municipal, emissora, local, Estela, Ibèrica, Santiga, Taió, Mogoda, Moguda, Florida, Soldevila, Rovira, Forns, centre, cívic, Escola, Música, deixalleria, Mogoda, Serveis">
+    <META NAME="AUTHOR" CONTENT="Ajuntament de Santa Perpètua; programació Genweb Vilaix">
+    <META NAME="REPLY-TO" CONTENT="&#114;&#097;&#100;&#105;&#111;&#064;&#115;&#116;&#112;&#101;&#114;&#112;&#101;&#116;&#117;&#097;&#046;&#100;&#105;&#098;&#097;&#046;&#101;&#115;">
+    <META NAME="Language" CONTENT="Catalan">
+    <META NAME="COPYRIGHT" CONTENT="Copyright (c)  Ajuntament de Santa Perpètua de Mogoda">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    <META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+    <META NAME="RATING" CONTENT="GENERAL">
+    <LINK REV="made" href="mailto:&#114;&#097;&#100;&#105;&#111;&#064;&#115;&#116;&#112;&#101;&#114;&#112;&#101;&#116;&#117;&#097;&#046;&#100;&#105;&#098;&#097;&#046;&#101;&#115;">
+    <link rel="shortcut icon" type="image/x-icon" tal:attributes="href string:${portal_url}/++resource++favicon.ico" />
 
     <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 

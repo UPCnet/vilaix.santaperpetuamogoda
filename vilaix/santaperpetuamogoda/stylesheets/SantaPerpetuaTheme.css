@@ -1800,3 +1800,8 @@ and (max-width : 640px) {
 .hCalendar-hidden {
   display: none;
 }
+
+/* line 1357, ../scss/SantaPerpetuaTheme.scss */
+.tooltip a:hover {
+  color: white !important;
+}
