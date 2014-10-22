@@ -1,11 +1,18 @@
 Changelog
 =========
 
-1.6 (unreleased)
+1.7 (unreleased)
 ----------------
 
 - Nothing changed yet.
 
+
+1.6 (2014-10-22)
+----------------
+
+* Que no surti documentAuthor [Pilar Marinas]
+* Modificar metadades, favicon i csstooltip calendar [Pilar Marinas]
+* Obsolete keywords.js [Pilar Marinas]
 
 1.5 (2014-10-16)
 ----------------
