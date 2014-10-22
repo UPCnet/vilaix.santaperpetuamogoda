@@ -1805,3 +1805,8 @@ and (max-width : 640px) {
 .tooltip a:hover {
   color: white !important;
 }
+
+/* line 1361, ../scss/SantaPerpetuaTheme.scss */
+.documentAuthor {
+  display: none;
+}
