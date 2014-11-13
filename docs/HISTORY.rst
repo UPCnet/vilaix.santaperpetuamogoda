@@ -1,11 +1,13 @@
 Changelog
 =========
 
-1.7 (unreleased)
+1.7 (2014-11-13)
 ----------------
 
-- Nothing changed yet.
-
+* Cambiar favicon que sale mal al visualizar pdf [Pilar Marinas]
+* Logo fons transparent [Pilar Marinas]
+* Merge branch 'master' of github.com:UPCnet/vilaix.santaperpetuamogoda [Pilar Marinas]
+* Treure documentAuthor [Pilar Marinas]
 
 1.6 (2014-10-22)
 ----------------
