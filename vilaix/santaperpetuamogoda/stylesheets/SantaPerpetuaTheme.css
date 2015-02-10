@@ -1810,7 +1810,3 @@ and (max-width : 640px) {
 .documentAuthor {
   display: none;
 }
-
-#listing-table a[class^="contenttype-"]:before, #listing-table a[class*=" contenttype-"]:before, .template-folder_tabular_view .listing a[class^="contenttype-"]:before, .template-folder_tabular_view .listing a[class*=" contenttype-"]:before, .navTree a[class^="contenttype-"]:before, .navTree a[class*=" contenttype-"]:before {
-    background-image: none;
-}
