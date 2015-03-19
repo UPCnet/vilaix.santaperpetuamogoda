@@ -1,11 +1,12 @@
 Changelog
 =========
 
-1.8 (unreleased)
+1.8 (2015-03-19)
 ----------------
 
-- Nothing changed yet.
-
+* Cambio estilo portlet sin borde [hanirok]
+* Solucionado iconos menu navegacion en genweb [Pilar Marinas]
+* Treure icones menu navegacio [Pilar Marinas]
 
 1.7 (2014-11-13)
 ----------------
