@@ -154,5 +154,38 @@ class gwHeader(viewletBase):
 
     #     return style
 
+class gwFooter(viewletBase):
+    grok.name('genweb.footer')
+    grok.template('footer')
+    grok.viewletmanager(IPortalFooter)
+    grok.layer(ISantaPerpetuaTheme)
 
+    def getAddress(self):
+        """ Retorna les dades de contacte """
+        return {
+            "adreca_sencera": "Plaça de la Vila 5. (08130) Santa Perpètua de Mogoda.",
+            "telefon": "93 574 32 34"
+        }
 
+    def getLinksPeu(self):
+        """ links fixats per accessibilitat/rss/about """
+        idioma = self.pref_lang()
+        footer_links = {
+            "ca": {
+                "rss": "rss-ca",
+                "about": "sobre-aquest-web",
+                "accessibility": "accessibilitat"
+            },
+            "es": {
+                "rss": "rss-es",
+                "about": "sobre-esta-web",
+                "accessibility": "accesibilidad"
+            },
+            "en": {
+                "rss": "rss-en",
+                "about": "about-this-web",
+                "accessibility": "accessibility"
+            },
+        }
+
+        return footer_links[idioma]
