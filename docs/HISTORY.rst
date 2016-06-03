@@ -1,11 +1,10 @@
 Changelog
 =========
 
-1.9 (unreleased)
+1.9 (2016-06-03)
 ----------------
 
-- Nothing changed yet.
-
+* Personalizar pie de página [Sandra Saornil]
 
 1.8 (2015-03-19)
 ----------------
