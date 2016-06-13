@@ -1,11 +1,10 @@
 Changelog
 =========
 
-1.10 (unreleased)
+1.10 (2016-06-13)
 -----------------
 
-- Nothing changed yet.
-
+* removed protocol in url [roberto.diaz]
 
 1.9 (2016-06-03)
 ----------------
