@@ -62,6 +62,13 @@
         <tal:comment replace="nothing">
             Various slots where you can insert elements in the header from a template.
         </tal:comment>
+
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++genweb++stylesheets/genwebupc.css">
+
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++vilaix++stylesheets/VilaixTheme.css">
+
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++resource++SantaPerpetuaTheme.css">
+        
         <metal:topslot define-slot="top_slot" />
         <metal:headslot define-slot="head_slot" />
         <metal:styleslot define-slot="style_slot" />
@@ -76,11 +83,6 @@
         <link rel="apple-touch-icon" sizes="144x144" tal:attributes="href string:${portal_url}/++genweb++static/apple-touch-icon-144x144-precomposed.png" /> <!-- iPad 2x -->
 
         <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++genweb++stylesheets/genwebupc.css">
-
-        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++vilaix++stylesheets/VilaixTheme.css">
-
-        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++resource++SantaPerpetuaTheme.css">
 
     </tal:notajax>
 </head>
