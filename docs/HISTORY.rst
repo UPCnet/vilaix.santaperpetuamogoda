@@ -1,11 +1,10 @@
 Changelog
 =========
 
-1.11 (unreleased)
+1.11 (2019-03-22)
 -----------------
 
-- Nothing changed yet.
-
+* Evitar Redraw y aplicar estilos al inicio [r.ventura]
 
 1.10 (2016-06-13)
 -----------------
@@ -15,7 +14,7 @@ Changelog
 1.9 (2016-06-03)
 ----------------
 
-* Personalizar pie de página [Sandra Saornil]
+* Personalizar pie de pÃ¡gina [Sandra Saornil]
 
 1.8 (2015-03-19)
 ----------------
